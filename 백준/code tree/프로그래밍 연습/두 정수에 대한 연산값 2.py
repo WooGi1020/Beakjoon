@@ -9,6 +9,6 @@ def cal(n,m):
         m*=2
     return n,m
     
-cal(a,b)
+a, b = cal(a,b)
 
 print(a, b)
