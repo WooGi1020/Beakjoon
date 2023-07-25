@@ -14,7 +14,7 @@ for _ in range(n):
 near_idx = None
 for i in range(n):
     if weathers[i].sky == "Rain":
-        if weathers[i].date < weathers[near_idx].date:
+        if near_idx is None or weathers[i].date < weathers[near_idx].date:
             near_idx = i
             
 print(weathers[near_idx].date, weathers[near_idx].day,\

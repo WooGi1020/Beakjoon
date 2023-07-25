@@ -12,7 +12,6 @@ for i in range(n):
 
 judge.sort(key = lambda x : x.num)
 
-print()
 for i in range(n):
     for j in range(n):
         if judge[j]._num == i+1:
