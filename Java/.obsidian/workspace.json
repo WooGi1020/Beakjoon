@@ -21,14 +21,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "만나는 그 순간.md",
+                "file": "시뮬레이션 2/만나는 그 순간.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "64930975e3678894",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "자바의 정석 ch.12.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ed07219ba9e5e31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BaekJoon_Bronze/명령 프롬프트.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "630348a38892d9b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BaekJoon_Bronze/약수.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -78,7 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 225.5
   },
   "right": {
     "id": "753acc7f4e839ec7",
@@ -94,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "만나는 그 순간.md",
+                "file": "BaekJoon_Bronze/약수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "만나는 그 순간.md",
+                "file": "BaekJoon_Bronze/약수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "만나는 그 순간.md"
+                "file": "BaekJoon_Bronze/약수.md"
               }
             }
           },
@@ -165,9 +201,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f6765f3943f6e2b3",
+  "active": "630348a38892d9b9",
   "lastOpenFiles": [
-    "만나는 그 순간.md",
+    "무제 파일 1.md",
+    "BaekJoon_Bronze/명령 프롬프트.md",
+    "BaekJoon_Bronze/약수.md",
+    "자바의 정석 ch.12.md",
+    "BaekJoon_Bronze",
+    "새 폴더",
+    "시뮬레이션 2/연속되는 수 4.md",
+    "시뮬레이션 2/만나는 그 순간.md",
     "연속되는 수 4.md",
     "T를 초과하는 연속 부분 수열.md",
     "연속되는 수 3.md",
