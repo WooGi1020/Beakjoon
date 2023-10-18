@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "33206bb5ed4ba9d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebbfea7c2f9f5467",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4fad81346468d69c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_컴퓨터 구조_ 04. CPU 작동 원리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bdc48bd8ecdcb5a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6ad70bd0891e5b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f5430d234654fe8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "97fb2188b3b2a7f6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "db111b2e2a769288",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "15e768b0c7b19350",
+    "type": "split",
+    "children": [
+      {
+        "id": "24e8c2bc67ecf0b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "388281a4bcaca6a0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_컴퓨터 구조_ 04. CPU 작동 원리.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3268fde99eb46bb6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_컴퓨터 구조_ 04. CPU 작동 원리.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "896ef878ae3757de",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "015d2e708be81eea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_컴퓨터 구조_ 04. CPU 작동 원리.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "4fad81346468d69c",
+  "lastOpenFiles": [
+    "_컴퓨터 구조_ 04. CPU 작동 원리.md"
+  ]
+}

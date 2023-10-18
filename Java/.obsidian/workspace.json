@@ -74,9 +74,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d69223858ac74aed",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -213,7 +223,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c2b6c6d81d3daf68",
+  "active": "d69223858ac74aed",
   "lastOpenFiles": [
     "시뮬레이션 2/만나는 그 순간.md",
     "시뮬레이션 2/벌금은 누구에게.md",
