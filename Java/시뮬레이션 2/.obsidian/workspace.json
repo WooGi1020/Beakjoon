@@ -1,31 +1,27 @@
 {
   "main": {
-    "id": "33206bb5ed4ba9d0",
+    "id": "376a9b2c57a660c8",
     "type": "split",
     "children": [
       {
-        "id": "ebbfea7c2f9f5467",
+        "id": "ef1d29772a8aab24",
         "type": "tabs",
         "children": [
           {
-            "id": "4fad81346468d69c",
+            "id": "752be3e732ebb7a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_컴퓨터 구조_ 04. CPU 작동 원리.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "fa96517d1e2718b0",
+            "id": "f20ae79d28f3cad0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPU 성능 향상 기법.md",
+                "file": "선두를 지켜라.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,15 +34,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bdc48bd8ecdcb5a0",
+    "id": "341ebf3693803f86",
     "type": "split",
     "children": [
       {
-        "id": "b6ad70bd0891e5b3",
+        "id": "59d8ef0a2e77988f",
         "type": "tabs",
         "children": [
           {
-            "id": "3f5430d234654fe8",
+            "id": "7995831dbb817d46",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +52,7 @@
             }
           },
           {
-            "id": "97fb2188b3b2a7f6",
+            "id": "891a5acfa19f0d20",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +67,7 @@
             }
           },
           {
-            "id": "db111b2e2a769288",
+            "id": "506acf3ce5b259b0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -82,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "15e768b0c7b19350",
+    "id": "03d079643e35ec36",
     "type": "split",
     "children": [
       {
-        "id": "24e8c2bc67ecf0b4",
+        "id": "c973e365b03660ae",
         "type": "tabs",
         "children": [
           {
-            "id": "388281a4bcaca6a0",
+            "id": "0e6ecf687829b615",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPU 성능 향상 기법.md",
+                "file": "선두를 지켜라.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,19 +106,19 @@
             }
           },
           {
-            "id": "3268fde99eb46bb6",
+            "id": "538a02b74a99ed13",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPU 성능 향상 기법.md",
+                "file": "선두를 지켜라.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "896ef878ae3757de",
+            "id": "aa320c361523f539",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,12 +129,12 @@
             }
           },
           {
-            "id": "015d2e708be81eea",
+            "id": "b871543d75dd294c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPU 성능 향상 기법.md"
+                "file": "선두를 지켜라.md"
               }
             }
           }
@@ -159,9 +155,8 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fa96517d1e2718b0",
+  "active": "f20ae79d28f3cad0",
   "lastOpenFiles": [
-    "_컴퓨터 구조_ 04. CPU 작동 원리.md",
-    "CPU 성능 향상 기법.md"
+    "선두를 지켜라.md"
   ]
 }
