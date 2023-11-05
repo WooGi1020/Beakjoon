@@ -84,7 +84,6 @@ const setBookmarkItem = (item) => {
 const setBookmarkList = () => {
     bookmarkList.forEach((item) =>{
         setBookmarkItem(item);
-        console.log(item);
     })
 }
 
