@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "af636c6d088aff4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS_Study/모던 자바스크립트_DeepDive/CH_18. 함수와 일급 객체.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS_Study/모던 자바스크립트_DeepDive/CH_16. 프로퍼티 어트리뷰트.md",
+                "file": "JS_Study/모던 자바스크립트_DeepDive/CH_18. 함수와 일급 객체.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS_Study/모던 자바스크립트_DeepDive/CH_16. 프로퍼티 어트리뷰트.md",
+                "file": "JS_Study/모던 자바스크립트_DeepDive/CH_18. 함수와 일급 객체.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS_Study/모던 자바스크립트_DeepDive/CH_16. 프로퍼티 어트리뷰트.md"
+                "file": "JS_Study/모던 자바스크립트_DeepDive/CH_18. 함수와 일급 객체.md"
               }
             }
           }
@@ -184,11 +196,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4d50f6741e1dfddd",
+  "active": "af636c6d088aff4f",
   "lastOpenFiles": [
-    "JS_Study/모던 자바스크립트_DeepDive/CH_13. 스코프.md",
+    "JS_Study/모던 자바스크립트_DeepDive/CH_17.  생성자 함수에 의한 객체 생성.md",
+    "JS_Study/모던 자바스크립트_DeepDive/CH_18. 함수와 일급 객체.md",
     "JS_Study/모던 자바스크립트_DeepDive/CH_11. 원시 값과 객체의 비교.md",
     "JS_Study/모던 자바스크립트_DeepDive/CH_16. 프로퍼티 어트리뷰트.md",
+    "JS_Study/모던 자바스크립트_DeepDive/CH_13. 스코프.md",
     "JS_Study/강의자료/구조 분해 할당.md",
     "2023-11-06.md",
     "무제 파일.canvas",
@@ -218,8 +232,6 @@
     "DOM API.md",
     "Date 객체 활용.md",
     "입력 폼 활용.md",
-    "Api.md",
-    "Promise 객체.md",
-    "비동기처리.md"
+    "Api.md"
   ]
 }

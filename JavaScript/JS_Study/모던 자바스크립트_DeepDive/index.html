@@ -9,14 +9,10 @@
     
 </body>
 <script>
-   var x = 'global';
-
-   function foo () {
-        console.log(x);
-        var x = 'local';
+   function square(num) {
+    return num * num;
    }
 
-   foo();
-   console.log(x);
+   console.log(Object.getOwnPropertyDescriptors(square));
 </script>
 </html>

@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "fa96517d1e2718b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPU 성능 향상 기법.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPU 성능 향상 기법.md",
+                "file": "_컴퓨터 구조_ 04. CPU 작동 원리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPU 성능 향상 기법.md",
+                "file": "_컴퓨터 구조_ 04. CPU 작동 원리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPU 성능 향상 기법.md"
+                "file": "_컴퓨터 구조_ 04. CPU 작동 원리.md"
               }
             }
           }
@@ -159,9 +146,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fa96517d1e2718b0",
+  "active": "4fad81346468d69c",
   "lastOpenFiles": [
-    "_컴퓨터 구조_ 04. CPU 작동 원리.md",
-    "CPU 성능 향상 기법.md"
+    "CPU 성능 향상 기법.md",
+    "_컴퓨터 구조_ 04. CPU 작동 원리.md"
   ]
 }
