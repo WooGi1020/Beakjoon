@@ -11,12 +11,8 @@
             "id": "74f69df5b7ae2fa4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "[코딩 자율학습] Html+Css+JavaScript/3장_실무에서 자주 사용하는 HTML 필수 태그 다루기_2.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "[코딩 자율학습] Html+Css+JavaScript/3장_실무에서 자주 사용하는 HTML 필수 태그 다루기_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "[코딩 자율학습] Html+Css+JavaScript/3장_실무에서 자주 사용하는 HTML 필수 태그 다루기_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "[코딩 자율학습] Html+Css+JavaScript/3장_실무에서 자주 사용하는 HTML 필수 태그 다루기_2.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -149,12 +141,13 @@
   },
   "active": "74f69df5b7ae2fa4",
   "lastOpenFiles": [
+    "[코딩 자율학습] Html+Css+JavaScript/4장_웹 스타일링을 위한 CSS 기초 배우기.md",
+    "[코딩 자율학습] Html+Css+JavaScript/3장_실무에서 자주 사용하는 HTML 필수 태그 다루기_2.md",
     "[코딩 자율학습] Html+Css+JavaScript/3장_실무에서 자주 사용하는 HTML 필수 태그 다루기_1.md",
     "[코딩 자율학습] Html+Css+JavaScript/셀프 체크/3장/index3_3.html",
     "[코딩 자율학습] Html+Css+JavaScript/셀프 체크/3장/index3_2.html",
     "[코딩 자율학습] Html+Css+JavaScript/셀프 체크/3장/index3_1.html",
     "[코딩 자율학습] Html+Css+JavaScript/셀프 체크/3장",
-    "[코딩 자율학습] Html+Css+JavaScript/3장_실무에서 자주 사용하는 HTML 필수 태그 다루기_2.md",
     "[코딩 자율학습] Html+Css+JavaScript/셀프 체크/index3_3.html",
     "[코딩 자율학습] Html+Css+JavaScript/셀프 체크/index3_2.html",
     "[코딩 자율학습] Html+Css+JavaScript/셀프 체크/index3_1.html",

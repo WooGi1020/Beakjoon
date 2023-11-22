@@ -1,5 +1,14 @@
+---
+tistoryBlogName: coding-woogi
+tistoryTitle: 3장_실무에서 자주 사용하는 HTML 필수 태그 다루기_2
+tistoryVisibility: "0"
+tistoryCategory: "1407661"
+tistorySkipModal: true
+tistoryPostId: "16"
+tistoryPostUrl: https://coding-woogi.tistory.com/16
+---
 
-### 3.7 표 만들기
+### 3.7 표 만들기q
 
 - table 태그
 	HTML에서 표를 생성하는 경우 사용
