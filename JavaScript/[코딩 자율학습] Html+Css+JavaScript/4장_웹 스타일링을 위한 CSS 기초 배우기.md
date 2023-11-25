@@ -1,3 +1,12 @@
+---
+tistoryBlogName: coding-woogi
+tistoryTitle: 4장_웹 스타일링을 위한 CSS 기초 배우기
+tistoryVisibility: "3"
+tistoryCategory: "1407661"
+tistorySkipModal: true
+tistoryPostId: "17"
+tistoryPostUrl: https://coding-woogi.tistory.com/17
+---
 
 ### 4.1 CSS 문법 살펴보기
 

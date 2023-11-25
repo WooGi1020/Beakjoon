@@ -1,3 +1,12 @@
+---
+tistoryBlogName: coding-woogi
+tistoryTitle: 5장_CSS 선택자 다루기
+tistoryVisibility: "3"
+tistoryCategory: "1407661"
+tistorySkipModal: true
+tistoryPostId: "18"
+tistoryPostUrl: https://coding-woogi.tistory.com/18
+---
 
 ### 5.1 기본 선택자 사용하기
 
