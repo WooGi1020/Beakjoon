@@ -4,19 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3.2 self-check</title>
+    <style>
+        .wrap{
+            text-align: center;
+            width:200px;
+            height:300px;
+            border: 1px none black;
+            margin:0 auto;
+        }
+        #google_login a img{
+            width:15px;
+            height:15px;
+            background-color: white;
+        }
+        #google_logbtn {
+            border: none;
+            background-color: white;
+        }
+    </style>
 </head>
 <body>
-    <div style="text-align: center;">
+    <div class = "wrap">
         <form action = "#" method="post">
-            <fieldset>
-                <button type = "button">
-                    Log in with google
-                </button>
+            <fieldset id = "google_login">
+                <a href = "https://accounts.google.com/v3/signin/identifier?Email=jungwk1020%40gmail.com&continue=https%3A%2F%2Fwww.google.com%2F&ifkv=ASKXGp31HNyg7RGaChPR-9z83JIM8LYRiVXmMVOPBYxzI1nW9Ech6JmGfH1uzQt_KPrdZMNSB0VV&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1694085183%3A1700975782030535&theme=glif">
+                    <img src = "./googlelogo.png">
+                    <button type = "submit" id = "google_logbtn">
+                        login with google
+                    </button>
+                </a>
             </fieldset>
             <p>
                 or
             </p>
-            <fieldset>
+            <fieldset id = "login">
                 <legend>로그인</legend>
                 <label for = "Username">
                     <input type = "text" id = "Username" placeholder = "Username">

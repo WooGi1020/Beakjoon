@@ -1,0 +1,16 @@
+body{
+    height:10000px;
+}
+
+.parent{
+    width:320px;
+    height: 240px;
+    border: 1px solid black;
+    overflow:scroll
+}
+
+.children{
+    height:2000px;
+    background-image: url('./background.jpg');
+    background-attachment: scroll;
+}
