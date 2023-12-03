@@ -1,3 +1,13 @@
+---
+tistoryBlogName: coding-woogi
+tistoryTitle: 6장_CSS 필수 속성 다루기_2
+tistoryVisibility: "3"
+tistoryCategory: "1407661"
+tistorySkipModal: true
+tistoryPostId: "22"
+tistoryPostUrl: https://coding-woogi.tistory.com/22
+---
+
 ### 6.4 배경 속성으로 요소의 배경 설정하기
 
 - background-color 속성

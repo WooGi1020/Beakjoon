@@ -5,52 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3.2 self-check</title>
     <style>
-        .wrap{
-            text-align: center;
-            width:200px;
-            height:300px;
-            border: 1px none black;
-            margin:0 auto;
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
         }
-        #google_login a img{
-            width:15px;
-            height:15px;
-            background-color: white;
+
+        body{
+        font-family:"Roboto", sans-serif;
         }
-        #google_logbtn {
-            border: none;
-            background-color: white;
+
+        #login{
+        width:304px;
+        height:390px;
+        padding:28px 38px;
+        border:1px solid #000;
+        margin:100px auto;
+        }
+
+        #login fieldset{
+        border:none;
+        }
+
+        #login fieldset legend{
+        position:absolute;
+        top:-99999px;
+        }
+
+        #login button{
+        width:228px;
+        height:44px;
+        border:1px solid #000;
+        background-color:white;
+        font-weight:bold;
+        }
+
+        #login input{
+        width:228px;
+        height:44px;
+        border:1px solid #000;
+        padding:0 10px;
+        margin-bottom:21px;
+        background-color:#eaeaea;
+        }
+
+        #login > fieldset + p {
+        margin:24px 0;
+        font-size:16px;
+        font-weight:bold;
+        text-align:center;
+        }
+
+        #login button[type="submit"]{
+        background-color:#373f3c ;
+        color:white;
+        margin-bottom:27px;
+        font-weight:normal;
+        }
+
+        #login a{
+        text-decoration:none;
+        color:#2c3432;
+        font-size:14px;
+        text-align:center;
+        display:block;
         }
     </style>
 </head>
 <body>
-    <div class = "wrap">
-        <form action = "#" method="post">
-            <fieldset id = "google_login">
-                <a href = "https://accounts.google.com/v3/signin/identifier?Email=jungwk1020%40gmail.com&continue=https%3A%2F%2Fwww.google.com%2F&ifkv=ASKXGp31HNyg7RGaChPR-9z83JIM8LYRiVXmMVOPBYxzI1nW9Ech6JmGfH1uzQt_KPrdZMNSB0VV&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1694085183%3A1700975782030535&theme=glif">
-                    <img src = "./googlelogo.png">
-                    <button type = "submit" id = "google_logbtn">
-                        login with google
-                    </button>
-                </a>
-            </fieldset>
-            <p>
-                or
-            </p>
-            <fieldset id = "login">
-                <legend>로그인</legend>
-                <label for = "Username">
-                    <input type = "text" id = "Username" placeholder = "Username">
-                </label>
-                <label for = "Password">
-                    <input type = "password" placeholder="Password">
-                </label>
-                <button type = "submit">
-                    LOGIN
-                </button>
-            </fieldset>
-            <a href="#">Forget your password?</a>
-        </form>
-    </div>
+    <form action="#" id="login">
+        <fieldset>
+          <legend>로그인</legend>
+          <button type="button">
+            Log in with Google
+          </button>
+        </fieldset>
+        <p>or</p>
+        <fieldset>
+          <legend>일반 로그인</legend>
+          <label for="username">
+            <input type="text" id="username" name="username" placeholder="Username" >
+          </label>
+          <label for="password">
+            <input type="password" id="password" name="password" placeholder="Password" >
+          </label>
+          <button type="submit">
+            LOGIN
+          </button>
+        </fieldset>
+        <a href="#">Forgot your password?</p>
 </body>
 </html>

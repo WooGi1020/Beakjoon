@@ -1,4 +1,13 @@
- 
+---
+tistoryBlogName: coding-woogi
+tistoryTitle: 6장_CSS 필수 속성 다루기_1
+tistoryVisibility: "3"
+tistoryCategory: "1407661"
+tistorySkipModal: true
+tistoryPostId: "21"
+tistoryPostUrl: https://coding-woogi.tistory.com/21
+---
+
 ### 6.1 CSS의 특징 살펴보기
 
 - 기본 스타일 시트
@@ -112,8 +121,7 @@
 	}
 ```
 
----
-### 6.2 텍트 속성으로 텍스트 꾸미기
+### 6.2 텍스트 속성으로 텍스트 꾸미기
 
 - font-family 속성
 	속성값으로 글꼴명을 작성해 글꼴 지정
@@ -215,7 +223,6 @@
 	line-height:normal; /*15, 15%, px*
 ```
 
----
 ### 6.3 박스 모델을 구성하는 속성 다루기
 모든 HTML 요소가 ==박스==로 둘러쌓여 있다고 생각하는 개념
 박스 형태의 요소들을 하나씩 ==원하는 곳에 배치==하여 웹 페이지를 완성시키고자 함
