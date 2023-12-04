@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_1.md",
+                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_2.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "21281c7113b302bb",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_1.md",
+                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_1.md",
+                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_1.md"
+                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_2.md"
               }
             }
           }
@@ -149,10 +148,29 @@
   },
   "active": "36bdfcba19adf13c",
   "lastOpenFiles": [
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/8장_자바스크립트 시작하기.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/7장_효과적인 레이아웃을 위한 CSS 속성 다루기.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/6장_CSS 필수 속성 다루기_3.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/10장/index10_3.js",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_1.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/8장_자바스크립트 시작하기.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_2.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/10장_자바스크립트 함수 다루기.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/6장_CSS 필수 속성 다루기_1.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/6장_CSS 필수 속성 다루기_2.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/4장_웹 스타일링을 위한 CSS 기초 배우기.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/5장_CSS 선택자 다루기.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/2장_HTML 문서 작성을 위한 기본 내용 살펴보기.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/3장_실무에서 자주 사용하는 HTML 필수 태그 다루기_1.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/3장_실무에서 자주 사용하는 HTML 필수 태그 다루기_2.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/6장_CSS 필수 속성 다루기_3.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/7장_효과적인 레이아웃을 위한 CSS 속성 다루기.md",
+    "컴구운체/_운영체제_ 09. 운영체제 시작하기.md",
+    "JavaScript/JS_Study/모던 자바스크립트_DeepDive/CH_19. 프로토타입.md",
+    "JavaScript/JS_Study/모던 자바스크립트_DeepDive/CH_18. 함수와 일급 객체.md",
+    "JavaScript/JS_Study/모던 자바스크립트_DeepDive/CH_13. 스코프.md",
+    "JavaScript/JS_Study/모던 자바스크립트_DeepDive/CH_11. 원시 값과 객체의 비교.md",
+    "JavaScript/My_Projects/JAVA_PROJECT_Ghost/index.js",
+    "JavaScript/My_Projects/JAVA_PROJECT_Ghost/main.css",
+    "JavaScript/My_Projects/JAVA_PROJECT_Ghost/index.html",
+    "JavaScript/My_Projects/JAVA_PROJECT_Ghost",
     "JavaScript/7장_효과적인 레이아웃을 위한 CSS 속성 다루기.md",
     "JavaScript/7장_효과적인 레이아웃을 위한 CSS 속성 다루기 1.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/7장/grid-basic.css",
@@ -161,33 +179,14 @@
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/7장/flex-basic.css",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/7장/index.html",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/7장",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/6장_CSS 필수 속성 다루기_2.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/6장_CSS 필수 속성 다루기_1.md",
     "컴구운체/_컴퓨터 구조_ 08. 입출력장치.md",
     "컴구운체/_컴퓨터 구조_ 06. 메모리와 캐시 메모리.md",
     "컴구운체/_컴퓨터 구조_ 07. 보조 기억 장치.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/5장_CSS 선택자 다루기.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/4장_웹 스타일링을 위한 CSS 기초 배우기.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/6장/transition_index.html",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/3장_실무에서 자주 사용하는 HTML 필수 태그 다루기_1.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/3장/googlelogo.png",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/3장/pngwing.com.png",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/3장/googlelogo.htm",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/3장/미확인 517291.crdownload",
     "컴구운체/_컴퓨터 구조_ 05. CPU 성능 향상 기법.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/6장/background.jpg",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/6장/main.css",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/2장_HTML 문서 작성을 위한 기본 내용 살펴보기.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/3장_실무에서 자주 사용하는 HTML 필수 태그 다루기_2.md",
     "README.md",
-    "컴구운체/_컴퓨터 구조_ 04. CPU 작동 원리.md",
-    "Java/자바의 정석 ch.12.md",
-    "컴구운체/무제 파일.canvas",
-    "백준/Bronze/3003. 킹， 퀸， 룩， 비숍， 나이트， 폰/README.md",
-    "백준/Bronze/2557. Hello World/README.md",
-    "백준/Bronze/1037. 약수/README.md",
-    "백준/Bronze/1157. 단어 공부/README.md",
-    "백준/Bronze/10988. 팰린드롬인지 확인하기/README.md",
-    "백준/Bronze/1032. 명령 프롬프트/README.md"
+    "컴구운체/무제 파일.canvas"
   ]
 }
