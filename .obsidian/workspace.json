@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_2.md",
+                "file": "컴구운체/_운영체제_ 09. 운영체제 시작하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_2.md",
+                "file": "컴구운체/_운영체제_ 09. 운영체제 시작하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_2.md",
+                "file": "컴구운체/_운영체제_ 09. 운영체제 시작하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_2.md"
+                "file": "컴구운체/_운영체제_ 09. 운영체제 시작하기.md"
               }
             }
           }
@@ -148,10 +148,11 @@
   },
   "active": "36bdfcba19adf13c",
   "lastOpenFiles": [
+    "컴구운체/_컴퓨터 구조_ 08. 입출력장치.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_2.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/10장/index10_3.js",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_1.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/8장_자바스크립트 시작하기.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_2.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/10장_자바스크립트 함수 다루기.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/6장_CSS 필수 속성 다루기_1.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/6장_CSS 필수 속성 다루기_2.md",
@@ -178,8 +179,6 @@
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/7장/flex_index.html",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/7장/flex-basic.css",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/7장/index.html",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/7장",
-    "컴구운체/_컴퓨터 구조_ 08. 입출력장치.md",
     "컴구운체/_컴퓨터 구조_ 06. 메모리와 캐시 메모리.md",
     "컴구운체/_컴퓨터 구조_ 07. 보조 기억 장치.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/3장/googlelogo.png",

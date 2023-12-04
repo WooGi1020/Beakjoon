@@ -5,6 +5,8 @@ canvas{
 }
 
 body{
+    margin:0 auto;
+    padding: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
