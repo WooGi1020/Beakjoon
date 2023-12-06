@@ -1,18 +1,92 @@
+@import "reset.css";
+
+body{
+    display:flex;
+    gap:20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: gainsboro;
+    padding:20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+
+}
+
 canvas{
     width:800px;
     height:800px;
-    border: 5px solid black;
+    background-color: white;
+    border-radius: 10px;
 }
-
 body{
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-
+.btns{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.color-options{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+}
 .color-option{
     width:50px;
     height:50px;
+    border-radius: 50%;
     cursor:pointer;
+    border: 5px solid white;
+    transition: transform ease-in-out .1s;
+}
+
+.color-option:hover{
+    transform:scale(1.2);
+}
+
+button{
+    all:unset; /* css속성 전부 삭제*/
+    padding:10px;
+    text-align: center;
+    background-color: cornflowerblue;
+    color:white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: opacity linear .1s;
+}
+
+button:hover{
+    opacity: 0.85;
+}
+
+input#text{
+    all:unset; /* css속성 전부 삭제*/
+    padding:10px 0px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 500;
+    text-align: center;
+    background-color: white;
+}
+
+input#file{
+    display:none;
+}
+
+label{
+    all:unset; /* css속성 전부 삭제*/
+    padding:10px;
+    text-align: center;
+    background-color: cornflowerblue;
+    color:white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: opacity linear .1s;
 }
