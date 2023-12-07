@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/11장_자바스크립트 객체 다루기.md",
+                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/12장_문서 객체 모델과 이벤트 다루기_1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/11장_자바스크립트 객체 다루기.md",
+                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/12장_문서 객체 모델과 이벤트 다루기_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/11장_자바스크립트 객체 다루기.md",
+                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/12장_문서 객체 모델과 이벤트 다루기_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/11장_자바스크립트 객체 다루기.md"
+                "file": "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/12장_문서 객체 모델과 이벤트 다루기_1.md"
               }
             }
           }
@@ -146,13 +146,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "52a26d3e61d1d963",
+  "active": "36bdfcba19adf13c",
   "lastOpenFiles": [
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/12장/index.html",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/12장",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/11장_자바스크립트 객체 다루기.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/12장_문서 객체 모델과 이벤트 다루기_1.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/11장/index11_2.html",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/11장/index.html",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/11장",
     "JavaScript/My_Projects/JAVA_PROJECT_MemeMaker/Study.record.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/11장_자바스크립트 객체 다루기.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/10장_자바스크립트 함수 다루기.md",
     "컴구운체/_운영체제_ 09. 운영체제 시작하기.md",
     "컴구운체/_컴퓨터 구조_ 08. 입출력장치.md",
@@ -181,9 +184,6 @@
     "JavaScript/7장_효과적인 레이아웃을 위한 CSS 속성 다루기.md",
     "JavaScript/7장_효과적인 레이아웃을 위한 CSS 속성 다루기 1.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/7장/grid-basic.css",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/7장/grid_index.html",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/7장/flex_index.html",
-    "컴구운체/_컴퓨터 구조_ 06. 메모리와 캐시 메모리.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/3장/googlelogo.png",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/3장/pngwing.com.png",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/셀프 체크/6장/background.jpg",
