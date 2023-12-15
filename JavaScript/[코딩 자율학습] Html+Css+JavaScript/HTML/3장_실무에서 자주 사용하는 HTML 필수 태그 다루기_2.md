@@ -8,7 +8,7 @@ tistoryPostId: "16"
 tistoryPostUrl: https://coding-woogi.tistory.com/16
 ---
 
-### 3.7 표 만들기q
+### 3.7 표 만들기
 
 - table 태그
 	HTML에서 표를 생성하는 경우 사용

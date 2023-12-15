@@ -1,0 +1,148 @@
+---
+tistoryBlogName: coding-woogi
+tistoryTitle: 13장_HTML+CSS+JS로 완성하는 최종 프로젝트_5
+tistoryVisibility: "3"
+tistoryCategory: "1407661"
+tistorySkipModal: true
+tistoryPostId: "37"
+tistoryPostUrl: https://coding-woogi.tistory.com/37
+---
+
+### 13.10 자바 스크립트 적용하기
+
+- 텍스트 타이핑 효과 구현하기
+```javascript
+(function () {
+
+    // span 요소 노드 가져오기
+
+    const spanEl = document.querySelector("main h2 span");
+
+    // 화면에 표시할 문장 배열
+
+    const txtArr = ['Baby Front-End Developer.', 'Clone Coding Master.'];
+
+    // 배열의 인덱스 초기값
+
+    let index = 0;
+
+    // 화면에 표시할 문장 배열에서 요소를 하나 가져온 뒤, 배열로 만들기
+
+    let currentTxt = txtArr[index].split("");
+
+  
+
+    function writeTxt(){
+
+        spanEl.textContent += currentTxt.shift();
+
+        if(currentTxt.length !== 0){
+
+            setTimeout(writeTxt, Math.floor(Math.random() * 100));
+
+        }else{
+
+            currentTxt = spanEl.textContent.split("");
+
+            setTimeout(deleteTxt, 3000);
+
+        }
+
+    }
+
+  
+
+    function deleteTxt(){
+
+        currentTxt.pop();
+
+        spanEl.textContent = currentTxt.join("");
+
+        if(currentTxt.length !== 0){
+
+            setTimeout(deleteTxt, Math.floor(Math.random() * 100));
+
+        }else{
+
+            index = (index + 1) % txtArr.length;
+
+            currentTxt = txtArr[index].split("");
+
+            console.log(currentTxt);
+
+            writeTxt();
+
+        }
+
+    }
+
+    writeTxt();
+
+})();
+```
+
+- 스크롤 이동 시 헤더 영역에 스타일 적용하기
+```javascript
+const headerEl = document.querySelector("header");
+
+window.addEventListener('scroll', function(){
+
+    requestAnimationFrame(scrollCheck);
+
+});
+
+function scrollCheck(){
+
+    let browserScrollY = window.scrollY ? window.scrollY : window.pageYOffset;
+
+    if(browserScrollY > 0){
+
+        headerEl.classList.add("active");
+
+    }else{
+
+        headerEl.classList.remove("active");
+
+    }
+
+}
+```
+
+- 부드러운 이동 애니메이션 효과 구현하기
+```javascript
+const animationMove = function(selector){
+
+    // ① selector 매개변로 이동할 대상 요소 노드 가져오기
+
+    const targetEl = document.querySelector(selector);
+
+    // ② 현재 브라우저의 스크롤 정보(y 값)
+
+    const browserScrollY = window.pageYOffset;
+
+    // ③ 이동할 대상의 위치(y 값)
+
+    const targetScorllY = targetEl.getBoundingClientRect().top + browserScrollY;
+
+    // ④ 스크롤 이동
+
+    window.scrollTo({ top: targetScorllY, behavior: 'smooth' });
+
+  };
+
+  // 스크롤 이벤트 연결하기
+
+  const scollMoveEl = document.querySelectorAll("[data-animation-scroll='true']");
+
+  for(let i = 0; i < scollMoveEl.length; i++){
+
+    scollMoveEl[i].addEventListener('click', function(e){
+
+      const target = this.dataset.target;
+
+      animationMove(target);
+
+    });
+
+  }
+```
