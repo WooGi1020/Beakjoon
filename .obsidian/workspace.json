@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "컴구운체/_운영체제_/_운영체제_ 10. 프로세스와 스레드.md",
+                "file": "컴구운체/_운영체제_/_운영체제_ 12. 프로세스 동기화.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴구운체/_운영체제_/_운영체제_ 10. 프로세스와 스레드.md",
+                "file": "컴구운체/_운영체제_/_운영체제_ 12. 프로세스 동기화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "컴구운체/_운영체제_/_운영체제_ 10. 프로세스와 스레드.md",
+                "file": "컴구운체/_운영체제_/_운영체제_ 12. 프로세스 동기화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "컴구운체/_운영체제_/_운영체제_ 10. 프로세스와 스레드.md"
+                "file": "컴구운체/_운영체제_/_운영체제_ 12. 프로세스 동기화.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "36bdfcba19adf13c",
   "lastOpenFiles": [
+    "컴구운체/_운영체제_/_운영체제_ 11. CPU 스케줄링.md",
+    "컴구운체/_운영체제_/_운영체제_ 12. 프로세스 동기화.md",
     "컴구운체/_운영체제_/_운영체제_ 09. 운영체제 시작하기.md",
     "컴구운체/_운영체제_/_운영체제_ 10. 프로세스와 스레드.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/13장_HTML+CSS+JS로 완성하는 최종 프로젝트_5.md",
@@ -193,8 +195,6 @@
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_1.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/8장_자바스크립트 시작하기.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/10장_자바스크립트 함수 다루기.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/6장_CSS 필수 속성 다루기_1.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/6장_CSS 필수 속성 다루기_2.md",
     "컴구운체/무제 파일.canvas"
   ]
 }
