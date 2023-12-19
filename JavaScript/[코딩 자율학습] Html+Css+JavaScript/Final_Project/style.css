@@ -200,7 +200,7 @@ section .about-self .right p{
 /* 본문 오른쪽의 아이콘 폰트 크기와 여백 지정 */
 section .about-self .right .social a{
     font-size:2.5rem;
-    margin-right:0.2rem;
+    margin-right:1rem;
 }
 
 /*section:What I Do 영역*/
@@ -218,10 +218,11 @@ section .do-me .do-inner{
     float:left;
     margin-right: 5%;
     cursor:pointer;
+    margin-bottom: 5%;
 }
 /* 마지막 사각형 외부 여백 설정 */
-section .do-me .do-inner:last-child{
-    margin-right:0;
+section .do-me .do-inner:nth-child(3n){
+    margin-right:0%;
 }
 /* HTML5, CSS3, JS 텍스트 크기와 간격 */
 section .do-me .do-inner .content h3{
@@ -237,10 +238,6 @@ section .do-me .do-inner:hover{
     background-color: lightcoral;
     color:white;
 }
-/* do-inner 클래스에 마우스를 올리면 아이콘 폰트 색상 변경 */
-section .do-me .do-inner:hover{
-    color:white;
-}
 
 /* section:PortFolio 영역*/
 /* clear 속성으로 float 속성값 해제 */
@@ -252,7 +249,7 @@ section.portfolio::after{
 /* portfolio-inner 사각형 꾸미기 */
 section.portfolio .portfolio-inner{
     width:30%;
-    margin-right:5%;
+    margin-right: 5%;
     padding:1rem 1rem 1.5rem 1rem;
     float:left;
     background-color: #f8f8f8;
@@ -282,7 +279,7 @@ section.portfolio .portfolio-inner h3{
 .bg{
     background: url('./images/background.jpg') center center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment:fixed;
     height:650px;
 }
 
