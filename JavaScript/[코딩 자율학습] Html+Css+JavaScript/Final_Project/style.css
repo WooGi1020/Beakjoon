@@ -14,7 +14,7 @@ li{
 }
 /*헤더 영역*/
 .container{
-    width: 1140px;
+    width: 1340px;
     margin:0 auto;
 }
 header{
@@ -27,7 +27,7 @@ header{
 }
 header.active{
     background-color:rgba(0, 0, 0);
-    animation:fadeIn 0.5s ease-in-out
+    animation:fadeIn 01s ease-in-out
 }
 @keyframes fadeIn{
     0%{
