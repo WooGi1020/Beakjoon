@@ -19,16 +19,18 @@ function deleteTodo(event){
 
 function paintTodo(newTodo) {
     const li = document.createElement("li");
+    li.style.listStyle = `none`;
     li.id = newTodo.id;
     const span = document.createElement("span");
     span.innerText = newTodo.text;
     const button = document.createElement("button");
-    button.innerText = "❌";
+    button.innerText = "✅";
     button.addEventListener("click", deleteTodo);
 
     li.appendChild(span);
     li.appendChild(button);
     todoList.appendChild(li);
+    li.style.marginTop = `10px`;
 }
 
 function handleTodoSubmit(event) {

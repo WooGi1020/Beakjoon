@@ -1,3 +1,4 @@
+const API_KEY = "0e41118d3ed276d850c79fd62e832a9f";
 
 var options = {
     enableHighAccuracy: false,
@@ -12,10 +13,13 @@ function onGeoOk(position){
     fetch(url)
     .then((response) => response.json())
     .then((data) => {
-        const weather = document.querySelector("#weather span:first-child");
-        const city = document.querySelector("#weather span:last-child");
-        city.innerText = data.name; 
-        weather.innerText = data.weather[0].main;
+        const iconUrl = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
+        const weather = document.querySelector("#weather img:nth-child(1)");
+        const city = document.querySelector("#weather span:nth-child(2)");
+        const degree = document.querySelector("#weather span:last-child");
+        city.innerText = data.name;
+        weather.src = iconUrl;
+        degree.innerText = `${data.main.temp}\`C`;
     });
 }
 

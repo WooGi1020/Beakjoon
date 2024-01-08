@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/My_Projects/JAVA_PROJECT_ChromeWeb/Chrome Web Making Prc Personal Script.md",
+                "file": "JavaScript/My_Projects/JAVA_PROJECT_MyOwnSpace/나만의 페이지 만들기.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "21281c7113b302bb",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/My_Projects/JAVA_PROJECT_ChromeWeb/Chrome Web Making Prc Personal Script.md",
+                "file": "JavaScript/My_Projects/JAVA_PROJECT_MyOwnSpace/나만의 페이지 만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/My_Projects/JAVA_PROJECT_ChromeWeb/Chrome Web Making Prc Personal Script.md",
+                "file": "JavaScript/My_Projects/JAVA_PROJECT_MyOwnSpace/나만의 페이지 만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/My_Projects/JAVA_PROJECT_ChromeWeb/Chrome Web Making Prc Personal Script.md"
+                "file": "JavaScript/My_Projects/JAVA_PROJECT_MyOwnSpace/나만의 페이지 만들기.md"
               }
             }
           }
@@ -149,6 +148,18 @@
   },
   "active": "36bdfcba19adf13c",
   "lastOpenFiles": [
+    "Pasted image 20240107220018.png",
+    "Pasted image 20240107220015.png",
+    "JavaScript/My_Projects/JAVA_PROJECT_MyOwnSpace/Chrome Web Making Prc Personal Script.md",
+    "JavaScript/My_Projects/JAVA_PROJECT_MyOwnSpace/나만의 페이지 만들기.md",
+    "JavaScript/My_Projects/JAVA_PROJECT_MyOwnSpace/img/2.jpg",
+    "JavaScript/My_Projects/JAVA_PROJECT_MyOwnSpace/img/1.jpg",
+    "JavaScript/My_Projects/JAVA_PROJECT_MyOwnSpace/img/0.jpg",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/CSS/6장_CSS 필수 속성 다루기_2.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/CSS/6장_CSS 필수 속성 다루기_3.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/CSS/6장_CSS 필수 속성 다루기_1.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/CSS/5장_CSS 선택자 다루기.md",
+    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/CSS/4장_웹 스타일링을 위한 CSS 기초 배우기.md",
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/img/2.jpg",
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/img/1.jpg",
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/img/0.jpg",
@@ -163,7 +174,6 @@
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/CSS",
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/JS",
     "textureAtlas.png",
-    "JavaScript/My_Projects/JAVA_PROJECT_ChromeWeb/Chrome Web Making Prc Personal Script.md",
     "컴구운체/_운영체제_/_운영체제_ 10. 프로세스와 스레드.md",
     "컴구운체/_운영체제_/_운영체제_ 09. 운영체제 시작하기.md",
     "컴구운체/_운영체제_/_운영체제_ 12. 프로세스 동기화.md",
@@ -175,26 +185,15 @@
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/13장_HTML+CSS+JS로 완성하는 최종 프로젝트_1.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/HTML/2장_HTML 문서 작성을 위한 기본 내용 살펴보기.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/HTML/3장_실무에서 자주 사용하는 HTML 필수 태그 다루기_1.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/CSS/6장_CSS 필수 속성 다루기_1.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/images/portfolio3.png",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/images/portfolio2.png",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/images/portfolio1.png",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/images/background.jpg",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/images/background (2).jpg",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/images/code-programming-language-programming-programmers-JavaScript-2123849-wallhere.com.jpg",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/images/me_alone.jpg",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/CSS/4장_웹 스타일링을 위한 CSS 기초 배우기.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/HTML/3장_실무에서 자주 사용하는 HTML 필수 태그 다루기_2.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/CSS/5장_CSS 선택자 다루기.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/12장_문서 객체 모델과 이벤트 다루기_2.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/12장_문서 객체 모델과 이벤트 다루기_1.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/11장_자바스크립트 객체 다루기.md",
     "JavaScript/My_Projects/JAVA_PROJECT_MemeMaker/Study.record.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/10장_자바스크립트 함수 다루기.md",
     "컴구운체/_운영체제_ 09. 운영체제 시작하기.md",
-    "컴구운체/_컴퓨터 구조_ 08. 입출력장치.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_2.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/9장_자바스크립트 기초 문법 살펴보기_1.md",
     "컴구운체/무제 파일.canvas"
   ]
 }

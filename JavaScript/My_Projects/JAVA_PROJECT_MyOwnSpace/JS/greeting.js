@@ -15,8 +15,23 @@ function onLoginSubmit(event){
 
 function paintGreetings() {
     const username = localStorage.getItem(USERNAME_KEY);
-    greeting.innerText = `Hello! ${username}!`;
+    SayHifunc(username);
     greeting.classList.remove(HIDDEN_CLASSNAME);
+}
+
+function SayHifunc(username){
+    const currentHours = new Date().getHours();
+    console.log(typeof currentHours);
+    if(currentHours >= 6 && currentHours < 12 ){
+        greeting.innerText = `Good Morning! ${username}.`;
+    }
+    else if(currentHours >= 12 && currentHours < 18){
+        greeting.innerText = `Good Afternoon! ${username}.`;
+    }else if(currentHours >= 18 && currentHours < 21){
+        greeting.innerText = `Good Evening! ${username}.`;
+    }else{
+        greeting.innerText = `Good Night! ${username}.`;
+    }
 }
 
 const savedUserName = localStorage.getItem(USERNAME_KEY);
@@ -27,9 +42,12 @@ if(savedUserName === null){
 }else{
     paintGreetings();
 }
-function handleRemoveUser(){
-    localStorage.removeItem(USERNAME_KEY);
-    alert("REMOVE ACCESS!");
-    location.reload();
-}
-removeUser.addEventListener("click", handleRemoveUser);
+
+// function handleRemoveUser(){
+//     localStorage.removeItem(USERNAME_KEY);
+//     alert("REMOVE ACCESS!");
+//     location.reload();
+// }
+
+// removeUser.addEventListener("click", handleRemoveUser);
+

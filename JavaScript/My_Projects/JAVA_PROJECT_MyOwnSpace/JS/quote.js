@@ -52,7 +52,13 @@ const quoteList = [
 const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
 
-const todayQuote = quoteList[Math.floor(Math.random() * quoteList.length)];
+function setQuote(){
+    const todayQuote = quoteList[Math.floor(Math.random() * quoteList.length)];
+    quote.innerText = todayQuote.quote;
+    author.innerText = todayQuote.author !== "" ? `- ${todayQuote.author} -` : "";
+    
+}
 
-quote.innerText = todayQuote.quote;
-author.innerText = todayQuote.author;
+setQuote();
+setInterval(setQuote, 5000);
+

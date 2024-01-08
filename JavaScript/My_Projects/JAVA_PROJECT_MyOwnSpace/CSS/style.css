@@ -1,0 +1,157 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.hidden{
+    display:none;
+}
+
+body{
+    margin : 0 auto;
+    width : 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color : white;
+}
+
+.main-container{
+    display : flex;
+    justify-content : center;
+    align-items:center;
+    flex-direction: column;
+    height : 100vh;
+    position: relative;
+}
+
+.main-wrapper{
+    text-align : center;
+    position: fixed;
+}
+
+.main-wrapper #weather{
+    background-color: rgba(256,256,256,0.1);
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    width:160px;
+    height:210px;
+    bottom: 30px;
+    right:43px;
+    border:solid 5px rgba(256,256,256,0.3);
+    border-radius: 10px;
+}
+.main-wrapper #weather span{
+    display: block;
+    margin-top:10px;
+}
+.main-wrapper #weather img{
+    border:none;
+    width: 100px;
+    height:100px;
+}
+
+.main-wrapper #weather span:nth-child(2){
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:10px;
+    font-size:1.1rem;
+}
+.main-wrapper #weather span:last-child{
+    font-size:0.9rem;
+}
+.main-wrapper #clock{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:7rem;
+}
+
+.main-wrapper #login-form input{
+    background-color : rgba(256,256,256,0.2);
+    width: 300px;
+    text-align: center;
+    height:40px;
+    border-radius: 20px;
+    border-color: rgba(0,0,0,0.1);
+    border: none;
+}
+.main-wrapper #login-form input::placeholder{
+    font-size: 1rem;
+    color: black;
+}
+.main-wrapper #login-form input:focus{
+    outline: none;
+    box-shadow: rgba(256,256,256,0.5);
+
+}
+
+.main-wrapper #login-form input#log-in{
+    display: none;
+}
+.main-wrapper h1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main-wrapper #quote{
+    position:fixed;
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width : 800px;  
+    padding : 0 10px;
+    margin-bottom : 20px;
+    text-align: center;
+}
+
+.main-wrapper #quote span{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display:block;
+    color:ghostwhite;
+    
+}
+
+.main-wrapper div#quote span:nth-child(1){
+    font-size: 20px;
+}
+.main-wrapper .todo-container{
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    width:300px;
+    top: 50px;
+    right:20px;
+}
+
+.todo-container .todo-list{
+    margin-top: 20px;
+    color:white; 
+       
+}
+
+.todo-container button{
+    margin-left:5px;
+    background-color: inherit;
+    border:none;
+}
+
+.main-wrapper #todo-form input:focus{
+    outline: none;
+    box-shadow: rgba(256,256,256,0.5);
+
+}
+
+.main-wrapper #todo-form input{
+    width: 250px;
+    text-align: center;
+    height:40px;
+    border-radius: 20px;
+    border-color: rgba(0,0,0,0.1);
+    border: none;
+    background-color: rgba(256,256,256,0.2);
+}
+.main-wrapper #todo-form input::placeholder{
+    font-size:15px; 
+    color:black;
+}
+
