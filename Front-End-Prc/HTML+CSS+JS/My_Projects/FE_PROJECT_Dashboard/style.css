@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&family=Nanum+Gothic+Coding&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #369FFF;
+}
+
+i{
+    font-size:24px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    height:100vh;
+}
+
+.container .left-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.container .left-section .logo{
+    display:flex;
+    align-items: center;
+    gap:15px;
+}
+
+.container .left-section .logo a{
+    font-weight:800;
+    font-size:20px;
+    color:#006ED3;
+}
+
+.menu-btn{
+    width:32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    background-color: #D1E6F9;
+    border-radius: 6px;
+    cursor: pointer;
+    display:none;
+}
+
+.container .left-section .logo img{
+    width:40px;
+    height:40px;
+    object-fit: cover;
+}
+
+.container .left-section .sidebar{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.container .left-section .sidebar .item{
+    display:flex;
+    gap:20px;
+    cursor: pointer;
+}
+
+.container .left-section .sidebar i{
+    color:#BDBDBD;
+    transition: all 0.3 ease;
+}
+
+.container .left-section .sidebar a{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    color: #BDBDBD;
+    position: relative;
+    transition: all 0.3 ease;
+}
+
+.container .left-section .sidebar .item#active a,
+.container .left-section .sidebar .item#active i,
+.container .left-section .upgrade .link i{
+    color: #369FFF;
+}
+.container .left-section .sidebar .item a::after{
+    position: absolute;
+    content:"";
+    width:0px;
+    height:0px;
+    background-color:#369FFF;
+    right:-30px;
+    border-radius: 50%;
+    top:0;
+    transform: translateY(116%);
+    transition: all 0.3 ease;
+}
+
+.container .left-section .sidebar .item#active 
+a::after{
+    width:8px;
+    height:8px;
+}
+
+.container .left-section .pic img{
+    width:150px;
+}
+
+.container .left-section .upgrade{
+    background: #ebf6ff;
+    height:90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:16px 24px;
+    margin-bottom:20px;
+    border-radius:18px;
+    cursor: pointer;
+}
+
+.container .left-section .upgrade .link{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .left-section .upgrade .link a{
+    font-size:15px;
+}
