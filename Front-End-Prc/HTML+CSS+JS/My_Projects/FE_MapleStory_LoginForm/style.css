@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:#8f8e91;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    background:#2f2c34;
+    height:100vh;
+}
+
+.login-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-top:50px;
+}
+
+.login-container h1{
+    position:relative;
+    font-size: 3.5rem;
+    font-weight: 200;
+    color:#fff;
+    margin-bottom: 40px;
+}
+
+.login-container form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container form input, button{
+    width:543px;
+    height: 75px;
+    border-radius: 2px;
+}
+.login-container form input{
+    padding-left: 20px;
+    font-size: 20px;
+    color:#fff;
+    background: #1e1c22;
+    border:none;
+    margin-bottom:5px;
+}
+.login-container form input::placeholder{
+    font-size:20px;
+}
+.login-container form button{
+    background: #678eeb;
+    color:#fff;
+    font-size: 25px;
+    border:none;
+    border-radius:2px;
+    margin-top:20px;
+    cursor: pointer;
+}
+.container header{
+    display: flex;
+    justify-content: space-between;
+}
+.container header img{
+    width:140px;
+    height:70px;
+    margin-right:20px;
+    margin-top:10px;
+}
+.container header .icons{
+    color:#fff;
+    font-size:30px;
+    margin-top:20px;
+    margin-left: 20px;
+}
+.container header .icons i{
+    margin-left:10px;
+}
+.login-container .select-btn button{
+    font-size: 18px;
+    border-radius:2px;
+    width:270px;
+    height:75px;
+    background: #28252d;
+    border:none;
+    color:#8f8e91;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.login-container .select-btn button:nth-child(1){
+    background: #678eeb;
+    color:#fff;
+}
+
+.container .other-option{
+    display:flex;
+    color: #8f8e91;
+    margin-top:20px;
+    gap:50px;
+}
+
+.container .or{
+    margin-top:20px;
+    display:flex;
+    align-items: center;
+    gap:20px;
+    color:#8f8e91;
+}
+
+.container .or .line{
+    width:240px;
+    height:1px;
+    background: #8f8e91;
+}
+
+.container.active .select-btn button:nth-child(2){
+    background: #de8a34;
+    color:#fff;
+}
+.container.active .select-btn button:nth-child(1){
+    background: #28252d;
+    color:#8f8e91;
+}
+.container.active .login-container form button{
+    background:#de8a34;
+}
+.container.active .login-container form input:nth-child(1)::placeholder{
+
+}
