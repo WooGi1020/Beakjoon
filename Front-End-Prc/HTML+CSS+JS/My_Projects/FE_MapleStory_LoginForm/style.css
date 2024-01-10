@@ -27,7 +27,6 @@ body{
 }
 
 .login-container h1{
-    position:relative;
     font-size: 3.5rem;
     font-weight: 200;
     color:#fff;
@@ -75,12 +74,14 @@ body{
     height:70px;
     margin-right:20px;
     margin-top:10px;
+    cursor: pointer;
 }
 .container header .icons{
     color:#fff;
     font-size:30px;
     margin-top:20px;
     margin-left: 20px;
+    cursor: pointer;
 }
 .container header .icons i{
     margin-left:10px;
@@ -95,6 +96,9 @@ body{
     color:#8f8e91;
     margin-bottom: 25px;
     cursor: pointer;
+}
+.login-container .select-btn button:hover{
+    color:#fff;
 }
 .login-container .select-btn button:nth-child(1){
     background: #678eeb;
@@ -130,9 +134,9 @@ body{
     background: #28252d;
     color:#8f8e91;
 }
+.container.active .select-btn button:nth-child(1):hover{
+    color:#fff;
+}
 .container.active .login-container form button{
     background:#de8a34;
-}
-.container.active .login-container form input:nth-child(1)::placeholder{
-
 }

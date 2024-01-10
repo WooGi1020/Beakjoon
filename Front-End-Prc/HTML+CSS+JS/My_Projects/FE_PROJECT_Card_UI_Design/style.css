@@ -1,0 +1,136 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    max-width: 320px;
+    width:100%;
+    height:440px;
+    border:solid 1px;
+    border-radius: 18px;
+    background-color: #fff;
+    border:none;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+.card::before{
+    content:"";
+    position: absolute;
+    height:36%;
+    top:0;
+    left:0;
+    border-radius: 18px 18px 0 0;
+    width:100%;
+    background-color: #4070f4;
+}
+
+.card .profile{
+    text-align: center;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+.card .profile h1{
+    font-weight: 800;
+}
+
+.card .profile p{
+    font-weight: 400;
+}
+
+.card .profile-img img{
+    margin-top:25px;
+    width:160px;
+    height:160px;
+    border: solid 2px white;
+    border-radius: 50%;
+    position: relative;
+}
+
+.profile-sns{
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    cursor: pointer;
+}
+.profile-sns a:nth-child(1){
+    color:blue;
+}
+.profile-sns a:nth-child(2){
+    color:blueviolet;
+}
+.profile-sns a:nth-child(3){
+    color:red;
+}
+.profile-btn{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.profile-btn button:nth-child(1){
+    margin-right:12px;
+}
+.profile-btn button{
+    width:110px;
+    height:35px;
+    color:#fff;
+    background:#4070f4;
+    border:none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.profile-etc{
+    display:flex;
+    margin-top:22px;    
+    justify-content: space-between;
+    align-items: center;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.profile-etc .profile-etc-container{
+    display:flex;
+    align-items: center;
+    gap:5px;
+    cursor: pointer;
+}
+.profile-etc .cut{
+    color:rgba(0,0,0,0.3);
+}
+.profile-etc .profile-etc-container:nth-child(1):hover{
+    color:red;
+    transition: all 0.4s ease;
+}
+.profile-etc .profile-etc-container:nth-child(3):hover{
+    color:blue;
+    transition: all 0.4s ease;
+}
+.profile-etc .profile-etc-container:nth-child(5):hover{
+    color:rgb(1, 109, 1);
+    transition: all 0.4s ease;
+}

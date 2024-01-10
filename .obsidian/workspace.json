@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Front-End-Prc/HTML+CSS+JS/My_Projects/FE_MapleStory_LoginForm/메이플스토리 홈페이지 로그인 화면 만들어보기.md",
+                "file": "컴구운체/_운영체제_/_운영체제_ 13. 교착 상태.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front-End-Prc/HTML+CSS+JS/My_Projects/FE_MapleStory_LoginForm/메이플스토리 홈페이지 로그인 화면 만들어보기.md",
+                "file": "컴구운체/_운영체제_/_운영체제_ 13. 교착 상태.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Front-End-Prc/HTML+CSS+JS/My_Projects/FE_MapleStory_LoginForm/메이플스토리 홈페이지 로그인 화면 만들어보기.md",
+                "file": "컴구운체/_운영체제_/_운영체제_ 13. 교착 상태.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Front-End-Prc/HTML+CSS+JS/My_Projects/FE_MapleStory_LoginForm/메이플스토리 홈페이지 로그인 화면 만들어보기.md"
+                "file": "컴구운체/_운영체제_/_운영체제_ 13. 교착 상태.md"
               }
             }
           }
@@ -149,10 +149,13 @@
   },
   "active": "36bdfcba19adf13c",
   "lastOpenFiles": [
+    "Pasted image 20240110143929.png",
+    "컴구운체/_운영체제_/_운영체제_ 12. 프로세스 동기화.md",
+    "컴구운체/_운영체제_/_운영체제_ 13. 교착 상태.md",
+    "Front-End-Prc/HTML+CSS+JS/My_Projects/FE_MapleStory_LoginForm/메이플스토리 홈페이지 로그인 화면 만들어보기.md",
     "내 메이플 변경.png",
     "내 메이플.png",
     "Pasted image 20240109233833.png",
-    "Front-End-Prc/HTML+CSS+JS/My_Projects/FE_MapleStory_LoginForm/메이플스토리 홈페이지 로그인 화면 만들어보기.md",
     "Pasted image 20240107220018.png",
     "Pasted image 20240107220015.png",
     "JavaScript/My_Projects/JAVA_PROJECT_MyOwnSpace/Chrome Web Making Prc Personal Script.md",
@@ -167,7 +170,6 @@
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/CSS/4장_웹 스타일링을 위한 CSS 기초 배우기.md",
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/img/2.jpg",
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/img/1.jpg",
-    "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/img/0.jpg",
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/img",
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/새 폴더",
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/JS/background.js",
@@ -180,7 +182,6 @@
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/JS",
     "컴구운체/_운영체제_/_운영체제_ 10. 프로세스와 스레드.md",
     "컴구운체/_운영체제_/_운영체제_ 09. 운영체제 시작하기.md",
-    "컴구운체/_운영체제_/_운영체제_ 12. 프로세스 동기화.md",
     "컴구운체/_운영체제_/_운영체제_ 11. CPU 스케줄링.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/13장_HTML+CSS+JS로 완성하는 최종 프로젝트_5.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/13장_HTML+CSS+JS로 완성하는 최종 프로젝트_4.md",
@@ -194,7 +195,6 @@
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/12장_문서 객체 모델과 이벤트 다루기_1.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/11장_자바스크립트 객체 다루기.md",
     "JavaScript/My_Projects/JAVA_PROJECT_MemeMaker/Study.record.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/JS/10장_자바스크립트 함수 다루기.md",
     "컴구운체/무제 파일.canvas"
   ]
 }
