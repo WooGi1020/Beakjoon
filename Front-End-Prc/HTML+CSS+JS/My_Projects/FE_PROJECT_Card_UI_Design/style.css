@@ -77,6 +77,9 @@ a{
     margin-bottom:20px;
     cursor: pointer;
 }
+.profile-sns a{
+    transition: all 0.6s ease;
+}
 .profile-sns a:nth-child(1){
     color:blue;
 }
@@ -85,6 +88,9 @@ a{
 }
 .profile-sns a:nth-child(3){
     color:red;
+}
+.profile-sns a:hover{
+    transform: translateY(-7px);
 }
 .profile-btn{
     width:80%;

@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    gap:10px;
+}
+
+p{
+    font-size: 3rem;
+    font-weight: bold;
+}
+h1{
+    font-size:8rem;
+}
+
+.btn button{
+    padding: 10px 20px;
+    border:none;
+    border-radius: 10px;
+    color:#fff;
+    background:#333;
+    margin-top:20px;
+    cursor: pointer;
+}
+.btn button:not(:last-child){
+    margin-right:10px;
+}
+.btn button:hover{
+    color:#333;
+    background:#fff;
+    border:solid #333 2px;
+}
