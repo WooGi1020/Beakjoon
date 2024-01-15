@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #a7dadd;
 }
 
 main{
@@ -43,6 +44,7 @@ article{
     margin-top:60px;
     padding: 0 20px 30px 20px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    background-color: #e1f6f8;
 }
 
 .img img{

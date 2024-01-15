@@ -11,12 +11,41 @@ body{
 a{
     text-decoration: none;
 }
+.dark-mod{
+    background-color: rgba(0,0,0,0.8);
+}
+.dark-mod > .card{
+    background-color: #464646;
+    box-shadow: 0px 0px 30px 5px rgba(256,256,256,0.2);
+}
+.dark-mod > .card::before{
+    background-color: rgba(0,0,0,0.2);
+}
 
+.dark-mod > .card .profile-img img{
+    border:solid 2px rgba(0,0,0,0.2);
+    filter:grayscale(70%);
+}
+.dark-mod > .card .profile-sns a{
+    color: #777272;
+}
+.dark-mod > .card .profile-btn button{
+    background-color: #605c5c;
+    color:rgba(0,0,0,0.7);
+}
+.dark-mod > .card .profile-etc .profile-etc-container{
+    color:rgba(0,0,0,0.5);
+}
+.dark-mod > .card .profile-etc .profile-etc-container:hover{
+    color:rgba(0,0,0,0.8);
+}
 .container{
     display:flex;
     align-items: center;
     justify-content: center;
     height:100vh;
+    transition: 0.5s;
+    width:100vw;
 }
 
 .card{
@@ -27,7 +56,6 @@ a{
     height:440px;
     border:solid 1px;
     border-radius: 18px;
-    background-color: #fff;
     border:none;
     text-align: center;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
@@ -140,3 +168,72 @@ a{
     color:rgb(1, 109, 1);
     transition: all 0.4s ease;
 }
+
+.toggle-container{
+    display:flex;
+    top:20px;
+    right:20px;
+    transition: 0.5s;
+}
+
+.toggle-btn{
+    border:none;
+    border-radius: 50px;
+    position:relative;
+    width:50px;
+    height:25px;
+    background: #dedada;
+    cursor: pointer;
+}
+
+.toggle-btn::before{
+    background: #3e3e3e;
+    width:23px;
+    height:23px;
+    border-radius: 50px;
+    margin:1px;
+    content: '';
+    position:absolute;
+    transition: 0.4s;
+}
+
+.toggle-container input{
+    display:none;
+}
+
+.toggle-container input:checked + .toggle-btn::before {
+    transform: translateX(25px); 
+}
+
+/**toggle-btn
+.button{
+    position: relative;
+    border:none;
+    width:200px;
+    height:100px;
+    border-radius: 200px;
+    background: #7e7e7e;
+}
+input{
+    display:none;
+}
+.button::before{
+    position: absolute;
+    content: '';
+    width:90px;
+    height:90px;
+    background: #fff;
+    border-radius: 200px;
+    margin: 5px;
+    transition: 0.4s;
+}
+
+input:checked + .button::before{
+    transform: translateX(110%);
+    background: #7e7e7e;
+}
+
+input:checked + .button{
+    background-color: #fff;
+}
+**/

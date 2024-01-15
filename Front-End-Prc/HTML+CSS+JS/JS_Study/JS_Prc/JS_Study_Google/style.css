@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+:root{
+    --logo-blue:#6385ec;
+    --logo-red:#ce5140;
+    --logo-yellow:#eabe44;
+    --logo-green:#62a55d;
+    --grey: #d6d6d6;
+    --back-grey:#f2f3f4;
+    --letter-grey:#5e5e5e;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    height:100vh;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+
+.header ul{
+    display:flex;
+    flex-direction: row;
+    margin: 10px 20px;
+}
+
+.header ul li{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align:center;
+}
+.header ul li a{
+    color: var(--letter-grey);
+}
+.header ul .google-info,
+.header ul .store {
+    font-size: 15px;
+}
+
+.header ul .email,
+.header ul .image {
+    font-size: 13px;
+    margin-right: -3px;
+}
+
+.header ul .search-labs,
+.header ul .menu {
+    font-size: 20px;
+    padding: 5px 12px;
+}
+
+.header ul .google-info:hover,
+.header ul .store:hover,
+.header ul .email:hover,
+.header ul .image:hover {
+    text-decoration: underline;
+}
+
+.header ul .search-labs:hover,
+.header ul .menu:hover {
+    background-color: var(--back-grey);
+    border-radius: 50%;
+}
+
+
+section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.logo-container img{
+    width:280px;
+    margin-bottom: 40px;
+}
+.search-btn {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+}
+.search-btn input{
+    width:550px;
+    height: 40px;
+    border-radius: 20px;
+    border:solid 1px rgba(0,0,0,0.1);
+    font-size: 16px;
+    padding-left: 50px;
+    outline:none;
+}
+.search-btn input:hover{
+    box-shadow: 0 1px 9px -5px; rgba(0,0,0,0.5);
+}
+.search-btn i:nth-child(1){
+    position: absolute;
+    z-index: 1;
+    left:20px;
+}
+.search-btn i:nth-child(3){
+    position: absolute;
+    z-index: 1;
+    right:20px;
+    cursor: pointer;
+}
+
+.fast-go{
+    font-size: 14px;
+    margin-top: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fast-go .button{
+    width: 130px;
+    height: 130px;
+    text-align: center;
+}
+.fast-go .button .icon-back{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--back-grey);
+    margin-top:30px;
+    width:50px;
+    height:50px;
+    margin:20px auto 0 auto;
+    border-radius: 50%;
+}
+
+.fast-go .button p{
+    margin-top:25px;
+    color:#000;
+}
+.fast-go .button:hover{
+    background-color: var(--grey);
+    border-radius: 5px;
+}
+.chrome-btn{
+    font-size: 12px;
+    position:fixed;
+    padding: 5px 18px;
+    bottom:20px;
+    right:20px;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 3px 9px -6px rgba(0,0,0,0.5);
+}
+
+.chrome-btn:hover{
+    background: var(--grey);
+}
+.chrome-btn a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.chrome-btn i{
+    margin-right:15px;
+    color: rgb(99,133,236);
+}
+
+.chrome-btn p{
+    color: rgb(99,133,236);
+}
+
+@media screen and (max-width: 600px) {
+    .search-btn input{
+        width:350px
+    }
+    .chrome-btn{
+        position: fixed;
+        width:30px;
+        height:30px;
+        padding:5px;
+    }
+    .chrome-btn a{
+        width:0;
+    }
+    .chrome-btn i{
+        margin-left:35px;
+        margin-top:5px;
+    }
+    .chrome-btn p{
+        display:none;
+    }
+}
+
+    
+@media screen and (min-width:601px) and (max-width:1200px){
+    .search-btn input{
+        width:450px
+    }
+}
