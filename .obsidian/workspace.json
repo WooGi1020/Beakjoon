@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_20. strict mode.md",
+                "file": "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_23. 실행 컨텍스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "21281c7113b302bb",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_20. strict mode.md",
+                "file": "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_23. 실행 컨텍스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_20. strict mode.md",
+                "file": "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_23. 실행 컨텍스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_20. strict mode.md"
+                "file": "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_23. 실행 컨텍스트.md"
               }
             }
           }
@@ -148,6 +149,11 @@
   },
   "active": "a81cb9e5017eab3d",
   "lastOpenFiles": [
+    "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_22. this.md",
+    "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_23. 실행 컨텍스트.md",
+    "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/script.js",
+    "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_17.  생성자 함수에 의한 객체 생성.md",
+    "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_18. 함수와 일급 객체.md",
     "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_19. 프로토타입.md",
     "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_20. strict mode.md",
     "README.md",
@@ -182,7 +188,6 @@
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/CSS/style.css",
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/JS/app.js",
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/CSS",
-    "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/JS",
     "컴구운체/_운영체제_/_운영체제_ 10. 프로세스와 스레드.md",
     "컴구운체/_운영체제_/_운영체제_ 09. 운영체제 시작하기.md",
     "컴구운체/_운영체제_/_운영체제_ 11. CPU 스케줄링.md",
@@ -190,10 +195,6 @@
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/13장_HTML+CSS+JS로 완성하는 최종 프로젝트_4.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/13장_HTML+CSS+JS로 완성하는 최종 프로젝트_3.md",
     "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/13장_HTML+CSS+JS로 완성하는 최종 프로젝트_2.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/13장_HTML+CSS+JS로 완성하는 최종 프로젝트_1.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/HTML/2장_HTML 문서 작성을 위한 기본 내용 살펴보기.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/HTML/3장_실무에서 자주 사용하는 HTML 필수 태그 다루기_1.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/HTML/3장_실무에서 자주 사용하는 HTML 필수 태그 다루기_2.md",
     "컴구운체/무제 파일.canvas"
   ]
 }
