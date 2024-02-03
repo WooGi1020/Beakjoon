@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Ubuntu:wght@300;400;500&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  color:#000;
+}
+
+img{
+  object-fit: cover;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: #f1f1f1;
+}
+
+nav{
+  padding:0 80px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  height:80px;
+}
+
+nav a.logo{
+  font-size:33px;
+  color:#1b31aa;
+  font-weight: 600;
+}
+
+nav .links a:not(:last-child){
+  margin-right:25px;
+}
+
+nav .sign button{
+  padding: 6px 12px;
+  border:none;
+  margin-right:14px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+nav .sign button.signup{
+  background-color: #000;
+  color:#fff;
+  border-radius: 5px;
+}
+
+header{
+  padding: 0 80px;
+  height: calc(100vh - 80px);
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .left{
+  width:700px;
+}
+
+header .left h1{
+  font-size: 80px;
+}
+
+header .left h1 span{
+  color:#1b31aa;
+}
+
+header .left p{
+  margin: 40px 0;
+  color:#777;
+}
+
+header .left a{
+  display:flex;
+  align-items: center;
+  background-color: #000;
+  width:200px;
+  padding:8px;
+  border-radius: 60px;
+}
+
+header .left a i{
+  background-color: #fff;
+  font-size: 24px;
+  border-radius: 50%;
+  padding:8px;
+}
+
+header .left a span{
+  color: #fff;
+  margin-left: 35px;
+}
+
+header img{
+  width:600px;
+}
+
+h2.seperator{
+  padding:0 80px;
+  font-size: 40px;
+  margin-top:40px;
+}
+
+.device-introduce{
+  padding:0 80px;
+  margin:80px 0 80px;
+  display:flex;
+  justify-content: space-between;
+  gap:30px;
+}
+
+.device-introduce .item,
+.device-shop .device-list .item{
+  padding:20px;
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: all 0.5s ease;
+}
+
+.device-introduce .item:hover,
+.device-shop .device-list .item:hover{
+  box-shadow: none;
+}
+
+.device-introduce .item .header{
+  display:flex;
+  align-items: center;
+  gap:10px;
+}
+
+.device-introduce .item .header i{
+  font-size:40px;
+}
+
+.device-introduce .item .header h5{
+  font-size: 17px;
+  margin-left:5px;
+}
+
+.device-introduce .item p{
+  margin-top: 10px;
+  padding: 0 4px;
+}
+
+.device-shop{
+  padding:0 80px;
+  margin-top:30px;
+}
+
+.device-shop .category{
+  margin:0 auto;
+  width:50%;
+  display:flex;
+  justify-content: space-between;
+}
+
+.device-shop .category a{
+  background-color: #dfdcdc;
+  padding: 8px 14px;
+  font-size: 15px;
+  border-radius: 14px;
+  transition:  all 0.5s ease;
+}
+
+.device-shop .category a:hover{
+  color:#fff;
+  background-color: #0f2182;
+}
+
+.device-shop .device-list{
+  padding:40px 0;
+  display:flex;
+  justify-content: space-between;
+  gap:20px;
+}
+
+.device-shop .device-list .item img{
+  border: solid 2px rgba(0,0,0,0.1);
+  padding: 10px;
+  width:250px;
+  height:250px;
+  border-radius:18px;
+}
+.device-shop .device-list .item-tv img{
+  width:280px;
+}
+.device-shop .device-list .item .info{
+  display:flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding:12px 0;
+  border-bottom: 1px solid #edecec;
+}
+
+.device-shop .device-list .item .info h5{
+  font-size: 18px;
+}
+
+.device-shop .device-list .item .info .device-info{
+  margin-top:10px;
+  display:flex;
+  align-items: center;
+  gap:5px;
+}
+
+.device-shop .device-list .item .info .device-info i{
+  font-size: 22px;
+  color: #304ffe;
+}
+
+.device-shop .device-list .item .info .device-info p{
+  font-size:14px;
+  color:#304ffe;
+}
+
+.device-shop .device-list .item .info > p{
+  font-size:12px;
+  color: #989898;
+}
+
+.device-shop .device-list .item .item-id{
+  padding:14px 0 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.device-shop .device-list .item .item-id p,
+.device-shop .device-list .item .item-id a{
+  background-color: #edecec;
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 10px;
+}
+
+.device-shop .device-list .item .item-id a{
+  color:#304ffe;
+  background: transparent;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+.device-shop .device-list .item .item-id a:hover{
+  color:#fff;
+  background-color: #000;
+}
+
+footer{
+  background-color: #000;
+  padding: 100px 80px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+footer h3{
+  color:#fff;
+  font-size:48px;
+}
+
+footer .right{
+  width:80%;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+footer .right .links{
+  display:flex;
+  gap:30px;
+  margin-bottom:30px;
+}
+
+footer .right p{
+  color:#777;
+  font-size:13px;
+}
+
+footer .right .links a{
+  color:#989898;
+  transition: all 0.5s ease;
+
+}
+
+footer .right .links a:hover{
+  color:#fff;
+}
+footer .right .social{
+  display:flex;
+  align-items: center;
+  gap:20px;
+}
+
+footer .right .social i{
+  color:#fff;
+  font-size:24px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  margin-bottom:30px;
+}
+
+footer .right .social i:hover{
+  color:#304ffe
+}
