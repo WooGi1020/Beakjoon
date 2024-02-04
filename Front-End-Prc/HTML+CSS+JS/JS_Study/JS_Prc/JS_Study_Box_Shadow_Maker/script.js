@@ -1,24 +1,38 @@
-const mainBox = document.querySelector(".box-container .box");
+const mainBox = document.querySelector('.main-container .box');
 
-const horizenOffset = document.querySelector(".option input#h-offset");
-const verticalOffset = document.querySelector(".option input#v-offset");
-const blur = document.querySelector(".option input#blur");
-const spread = document.querySelector(".option input#spread");
+const horizon = document.querySelector('.main-container .option .range-option .horizon-container input');
+const vertical = document.querySelector('.main-container .option .range-option .vertical-container input');
+const blur = document.querySelector('.main-container .option .range-option .blur-container input');
+const spread = document.querySelector('.main-container .option .range-option .spread-container input');
 
-const shadowResult = document.querySelector(".result-output");
+const shadowInfo = document.querySelector('.main-container .option .other-option textarea');
+const copyBtn = document.querySelector('.main-container .option .other-option button');
 
-function handleShadow () {
-  let hOffset = horizenOffset.value;
-  let vOffset = verticalOffset.value;
-  let Blur = blur.value;
-  let Spread = spread.value;
+function handleShadow() {
+  const hOffset = `${horizon.value}px`;
+  const vOffset = `${vertical.value}px`;
+  const blurSet = `${blur.value}px`;
+  const spreadSet = `${spread.value}px`;
 
-  mainBox.style.boxShadow = `${hOffset}px ${vOffset}px ${Blur}px ${Spread}px`;
+  const boxShadow = `${hOffset} ${vOffset} ${blurSet} ${spreadSet}`;
+  mainBox.style.boxShadow = boxShadow;
 
-  shadowResult.innerHTML = `<p>box-shadow:${hOffset}px ${vOffset}px ${Blur}px ${Spread}px`;
+  shadowInfo.textContent = 'box-shadow: ' + boxShadow;
 }
 
-horizenOffset.addEventListener("input", handleShadow);
-verticalOffset.addEventListener("input", handleShadow);
+function copyShadow() {
+  shadowInfo.select();
+  shadowInfo.setSelectionRange(0, 99999);
+  document.execCommand("Copy");
+  copyBtn.textContent = "Copied!";
+  setTimeout(() =>{
+    copyBtn.textContent = "Copy!";
+  }, 1000);
+}
+
+horizon.addEventListener("input", handleShadow);
+vertical.addEventListener("input", handleShadow);
 blur.addEventListener("input", handleShadow);
 spread.addEventListener("input", handleShadow);
+
+copyBtn.addEventListener("click", copyShadow);

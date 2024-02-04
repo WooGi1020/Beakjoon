@@ -3,34 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Shadow Controller</title>
   <link rel="stylesheet" href="style.css">
   <link 
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" 
     rel="stylesheet">
-  <title>BoxShadow Maker</title>
 </head>
 <body>
-  <div class="box-container">
+  <div class="main-container">
     <div class="box"></div>
     <div class="option">
-      <label for="h-offset">
-        <p>Horizen</p>
-        <input type="range" id="h-offset" min="-20" max="30" value="0">
-      </label>
-      <label for="v-offset">
-        <p>Vertical</p>
-        <input type="range" id="v-offset" min="-20" max="30" value="10">
-      </label>
-      <label for="blur">
-        <p>blur</p>
-        <input type="range" id="blur" min="0" max="30" value="15">
-      </label>
-      <label for="spread">
-        <p>Spread</p>
-        <input type="range" id="spread" min="-30" max="30" value="-10">
-      </label>
-    </div>
-    <div class="result-output">
+      <div class="range-option">
+        <div class="horizon-container">
+          <p>Horizon</p>
+          <input class="horizon" type="range" min="-30" max="30" value="0">
+        </div>
+        <div class="vertical-container">
+          <p>Vertical</p>
+          <input class="vertical" type="range" min="-30" max="30" value="0">
+        </div>
+        <div class="blur-container">
+          <p>Blur</p>
+          <input type="range" class="blur" min="-30" max="30" value="15">
+        </div>
+        <div class="spread-container">
+          <p>Spread</p>
+          <input type="range" class="spread" min="-30" max="30" value="0">
+        </div>
+      </div>
+      <div class="other-option">
+        <textarea readonly></textarea>
+        <button>Copy</button>
+      </div>
     </div>
   </div>
   <script src="script.js"></script>

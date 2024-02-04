@@ -2,7 +2,7 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  font-family: 'poppins',sans-serif;
+  font-family: 'poppins', sans-serif;
 }
 
 body{
@@ -12,34 +12,73 @@ body{
   height:100vh;
 }
 
-.box-container{
-  width: 100%;
+.main-container{
   display:flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: cneter;
-  flex-direction: column;
 }
 
-.box-container .box{
-  width: 200px;
-  height:200px;
-  border: solid 2px black;
-  margin-bottom: 40px;
+.main-container .box{
+  width:250px;
+  height:250px;
+  border: solid 1px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  margin-bottom: 70px;
+  background-color: #f1f1f1;
 }
 
-.box-container .option{
+.main-container .option{
+  display:flex;
+  flex-direction: row;
+  gap:30px;
+}
+
+.main-container .option .range-option{
   display:flex;
   flex-direction: column;
-  gap: 10px;
-  text-align: center;
-  
+  gap:20px;
 }
 
-.box-container .result-output{
-  margin-top:30px;
-  font-size: 1.25rem;
-  color: #000;
-
+.main-container .option .range-option .horizon-container,
+.main-container .option .range-option .vertical-container,
+.main-container .option .range-option .blur-container,
+.main-container .option .range-option .spread-container{
+  display:flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.main-container .option .range-option .blur-container{
+  margin-left:15px;
 }
 
+.main-container .option .range-option input{
+  color:rgba(0,0,0,0.3);
+}
 
+.main-container .option .other-option{
+  display:flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main-container .option .other-option textarea{
+  resize:none;
+  outline:none;
+  width: 200px;
+  height: 80px;
+  padding: 15px 0 0 10px;
+  font-size: 0.75rem;
+  border-radius: 5px;
+  border: solid 1px rgba(0,0,0,0.3);
+  font-size: 1rem;
+}
+
+.main-container .option .other-option button{
+  height: 50px;
+  border-radius: 5px;
+  border:solid 1px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.main-container .option .other-option button:hover{
+  background-color: #c6c6c6;
+}
