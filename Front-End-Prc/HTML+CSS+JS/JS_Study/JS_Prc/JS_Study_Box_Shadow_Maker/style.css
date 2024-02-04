@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+
+body{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+}
+
+.box-container{
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: cneter;
+  flex-direction: column;
+}
+
+.box-container .box{
+  width: 200px;
+  height:200px;
+  border: solid 2px black;
+  margin-bottom: 40px;
+}
+
+.box-container .option{
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  
+}
+
+.box-container .result-output{
+  margin-top:30px;
+  font-size: 1.25rem;
+  color: #000;
+
+}
+
+
