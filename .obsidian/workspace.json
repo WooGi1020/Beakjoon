@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_23. 실행 컨텍스트.md",
+                "file": "Front-End-Prc/Node_React_Next_Study/React_Script/React 실행 과정 이해.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_23. 실행 컨텍스트.md",
+                "file": "Front-End-Prc/Node_React_Next_Study/React_Script/React 실행 과정 이해.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_23. 실행 컨텍스트.md",
+                "file": "Front-End-Prc/Node_React_Next_Study/React_Script/React 실행 과정 이해.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_23. 실행 컨텍스트.md"
+                "file": "Front-End-Prc/Node_React_Next_Study/React_Script/React 실행 과정 이해.md"
               }
             }
           }
@@ -149,8 +149,17 @@
   },
   "active": "a81cb9e5017eab3d",
   "lastOpenFiles": [
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_22. this.md",
+    "Front-End-Prc/Node_React_Next_Study/Learn_React_Next/section2/src/components/Footer.jsx",
+    "Front-End-Prc/Node_React_Next_Study/Learn_React_Next/section2/src/components/Body.jsx",
+    "Front-End-Prc/Node_React_Next_Study/Learn_React_Next/section2/src/components/Header.jsx",
+    "Front-End-Prc/Node_React_Next_Study/Learn_React_Next/section2/src/components",
+    "Front-End-Prc/Node_React_Next_Study/Learn_React_Next/section2/src/assets/react.svg",
+    "Front-End-Prc/Node_React_Next_Study/React_Script/React 실행 과정 이해.md",
+    "Front-End-Prc/HTML+CSS+JS/Node&FW_Study/React_Script",
+    "Front-End-Prc/HTML+CSS+JS/Node&FW_Study/무제 파일.md",
+    "Front-End-Prc/HTML+CSS+JS/Node&FW_Study/React_Script/React_Virtual Dom 이해.md",
     "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_23. 실행 컨텍스트.md",
+    "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_22. this.md",
     "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/script.js",
     "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_17.  생성자 함수에 의한 객체 생성.md",
     "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_18. 함수와 일급 객체.md",
@@ -166,7 +175,6 @@
     "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/검색 결과.png",
     "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/전체샷.png",
     "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/비교샷.png",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/내 구글.png",
     "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/JS_Study_Google/Google 시작 홈페이지 만들어보기.md",
     "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/JS_Study_MapleLogin/메이플스토리 홈페이지 로그인 화면 만들어보기.md",
     "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/JS_Study_Google/Google 홈페이지 만들어보기.md",
@@ -184,17 +192,9 @@
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/JS/background.js",
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/JS/quote.js",
     "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/JS/clock.js",
-    "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/JS/greeting.js",
-    "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/CSS/style.css",
-    "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/JS/app.js",
-    "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/CSS",
     "컴구운체/_운영체제_/_운영체제_ 10. 프로세스와 스레드.md",
     "컴구운체/_운영체제_/_운영체제_ 09. 운영체제 시작하기.md",
     "컴구운체/_운영체제_/_운영체제_ 11. CPU 스케줄링.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/13장_HTML+CSS+JS로 완성하는 최종 프로젝트_5.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/13장_HTML+CSS+JS로 완성하는 최종 프로젝트_4.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/13장_HTML+CSS+JS로 완성하는 최종 프로젝트_3.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/Final_Project/13장_HTML+CSS+JS로 완성하는 최종 프로젝트_2.md",
     "컴구운체/무제 파일.canvas"
   ]
 }

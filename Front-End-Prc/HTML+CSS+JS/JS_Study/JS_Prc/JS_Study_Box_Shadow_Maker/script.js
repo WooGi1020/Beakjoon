@@ -20,6 +20,8 @@ function handleShadow() {
   shadowInfo.textContent = 'box-shadow: ' + boxShadow;
 }
 
+window.addEventListener('DOMContentLoaded',handleShadow);
+
 function copyShadow() {
   shadowInfo.select();
   shadowInfo.setSelectionRange(0, 99999);
