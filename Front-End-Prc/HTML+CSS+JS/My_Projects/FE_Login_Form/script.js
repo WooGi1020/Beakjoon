@@ -19,12 +19,7 @@ const phoneicon = phoneDiv.querySelector('.fa-solid');
 
 function submit(e) {
   e.preventDefault();
-  if(formDiv.classList.contains('') || !formDiv.classList.contains('fail')
-   || formDiv.classList.contains('success')){
-    alert("Login Fail!");
-  }else if(formDiv.classList.contains('success')){
-    alert("Login Success!");
-  }
+  alert("Login Success!");
 }
 
 function isValidId () {
@@ -76,7 +71,7 @@ function isValidEmail () {
   }
 }
 function isValidPhone () {
-  const isValid = /^[0-9]/;
+  const isValid = /^[0-9]{10,}/;
   let test = isValid.test(phoneInput.value);
 
   if(test){
