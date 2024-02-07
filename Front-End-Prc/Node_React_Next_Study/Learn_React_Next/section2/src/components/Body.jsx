@@ -1,7 +1,10 @@
-export default function Body() {
-  return (
-    <div>
-      <h1>BODY</h1>
+import './body.css'
+
+export default function Body(){
+
+  return(
+    <div className="body">
+      <h1>body</h1>
     </div>
   )
 }
