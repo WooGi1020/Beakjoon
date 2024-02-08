@@ -9,7 +9,6 @@ const pwicon = divs[1].querySelector('.fa-solid');
 const emailicon = divs[2].querySelector('.fa-solid');
 const phoneicon = divs[3].querySelector('.fa-solid');
 
-
 function handleClass (test, icon, div){
   if(test){
     icon.classList.remove('fa-circle-exclamation');

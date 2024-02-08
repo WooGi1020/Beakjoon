@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Exchange Rater by COGI</title>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+
+  <div class="main-container">
+    <div class="logo-container">
+      <h1>Exchange Rate Viewer</h1>
+      <div class="line"></div>
+    </div>
+    <div class="input-amount">
+      <input type="text" autocomplete="off" placeholder="Enter Your Amount">
+    </div>
+
+    <div class="select-money">
+      <label for="select"></label>
+      <select name="Money" id="select">
+        <option value="USD">$ USD</option>
+        <option value="EUR">€ EUR</option>
+        <option value="JPY">¥ JPY</option>
+        <option value="CNH">¥ CNH</option>
+        <option value="GBP">£ GBP</option>
+        <option value="CHF">Fr. CHF</option>
+        <option value="CAD">$ CAD</option>
+        <option value="AUD">$ AUD</option>
+        <option value="SEK">kr SEK</option>
+        <option value="NZD">$ NZD</option>
+      </select>
+    </div>
+
+    <div class="result-container">
+      <p></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

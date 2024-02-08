@@ -82,6 +82,7 @@ body{
   border:solid 2px rgba(256,256,256,0.8);
   color:rgba(256,256,256,0.8);
   background-color: transparent;
+  backdrop-filter: blur(10px);
   transition: all 0.5s linear;
 }
 
@@ -133,6 +134,7 @@ i.fa-circle-exclamation{
   transition: all 0.5s linear;
   font-size: 16px;
   outline: none;
+  backdrop-filter: blur(10px);
 }
 
 .login-form .non-submitted button{
