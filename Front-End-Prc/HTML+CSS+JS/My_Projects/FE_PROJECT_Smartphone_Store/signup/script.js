@@ -8,6 +8,17 @@ const idicon = divs[0].querySelector('.fa-solid');
 const pwicon = divs[1].querySelector('.fa-solid');
 const emailicon = divs[2].querySelector('.fa-solid');
 const phoneicon = divs[3].querySelector('.fa-solid');
+const nickicon = divs[4].querySelector('.fa-solid');
+
+const signArr = []
+const SIGN_KEY = 'sign';
+
+function signInfo() {
+  inputs.forEach((item) => {
+    signArr.push(item.value);
+  })
+  localStorage.setItem(SIGN_KEY, JSON.stringify(signArr));
+}
 
 function handleClass (test, icon, div){
   if(test){
@@ -40,21 +51,28 @@ function submit(e) {
     submitBtn.textContent = 'Submitted!';
     submitBtn.style.color = "green";
     submitBtn.style.border = "none";
+
+    signInfo();
+
+    setTimeout(() =>{
+      location.href = 'login.html';
+    }, 1000);
+    
   }else{
     btnContainer.classList.add('non-submitted');
     btnContainer.classList.remove('submitted');
     submitBtn.textContent = 'Failed!';
     submitBtn.style.color = "red";
     submitBtn.style.border = "none";
-  }
 
-  setTimeout(() => {
-    submitBtn.textContent = 'Sign Up  !';
-    submitBtn.style.color = "rgba(256,256,256,0.8)";
-    btnContainer.classList.remove('non-submitted');
-    btnContainer.classList.remove('submitted');
-    submitBtn.style.border = 'none';
-  }, 1000);
+    setTimeout(() => {
+      submitBtn.textContent = 'Sign Up!';
+      submitBtn.style.color = "rgba(256,256,256,0.8)";
+      btnContainer.classList.remove('non-submitted');
+      btnContainer.classList.remove('submitted');
+      submitBtn.style.border = 'none';
+    }, 1000);
+  }
 }
 
 function isValidId () {
@@ -81,10 +99,18 @@ function isValidPhone () {
 
   handleClass(test, phoneicon, divs[3]);
 }
+function isValidNick () {
+  const isValid = /^[가-힣]{2,6}$/;
+  let test = isValid.test(inputs[4].value);
+
+  handleClass(test, nickicon, divs[4]);
+}
 
 inputs[0].addEventListener('input', isValidId);
 inputs[1].addEventListener('input', isValidPw);
 inputs[2].addEventListener('input', isValidEmail);
 inputs[3].addEventListener('input', isValidPhone);
+inputs[4].addEventListener('input', isValidNick);
+
 form.addEventListener('submit', submit);
 

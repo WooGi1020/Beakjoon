@@ -52,6 +52,16 @@ nav .sign button.signup{
   border-radius: 5px;
 }
 
+nav .signed{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color:#0f2182;
+}
+
+nav .signed button{
+  display:none;
+}
+
 header{
   padding: 0 80px;
   height: calc(100vh - 80px);
@@ -306,6 +316,12 @@ footer .right .social i{
   margin-bottom:30px;
 }
 
-footer .right .social i:hover{
-  color:#304ffe
+footer .right .social i:first-child:hover{
+  color:rgb(127, 58, 127);
+}
+footer .right .social i:nth-child(2):hover{
+  color:rgb(83, 83, 252);
+}
+footer .right .social i:last-child:hover{
+  color:rgb(255, 63, 63);
 }

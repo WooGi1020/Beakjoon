@@ -21,7 +21,7 @@ body{
   flex-direction: column;
   border:none;
   width: 500px;
-  height:670px;
+  height:400px;
   border-radius: 18px;;
   background-color: transparent;
   backdrop-filter: blur(10px);
@@ -68,20 +68,17 @@ body{
   align-items: center;
   justify-content: space-around;
   height: 100%;
-  margin-bottom: 30px;
+  gap: 5px;
   padding: 15px 10px 0px;
   border-radius: 18px;
-  border: 3px solid rgba(27, 49, 170, 0.7);
+  border: 3px solid rgba(27, 49, 170,0.7);
 }
 
 .login-form div{
   width: 420px;
   position: relative;
+  margin-top:20px;
   transition: transform 0.5s ease;
-}
-
-.login-form div:first-child{
-  margin-top: 5px;
 }
 
 .login-form div:not(:last-child):hover{
@@ -120,6 +117,7 @@ body{
   border-radius: 8px;
   color:#fff;
   cursor: pointer;
+  margin-bottom: 5px;
 }
 
 .fail{
@@ -144,12 +142,12 @@ body{
   background-color: #2039c8;
 }
 
-.login-form .non-submitted button{
+.login-form .non-logined button{
   animation: deoldeol 0.1s infinite;
   animation-iteration-count: 3;
 }
 
-.login-form .submitted button{
+.login-form .logined button{
   animation: banggeut 0.5s linear;
 }
 
