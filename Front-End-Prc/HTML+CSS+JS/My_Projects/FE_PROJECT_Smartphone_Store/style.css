@@ -22,11 +22,29 @@ body{
 
 nav{
   padding:0 80px;
+  width:100%;
   display:flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top:0;
   height:80px;
 }
+
+nav.active{
+  background-color:#f1f1f1;
+  z-index: 1;
+  animation:fadeIn 0.5s ease-in-out;
+  width:100%;
+}
+/* @keyframes fadeIn{
+  0%{
+      opacity:0;
+  }
+  100%{
+      opacity:1;
+  }
+} */
 
 nav a.logo{
   font-size:33px;
@@ -37,6 +55,12 @@ nav a.logo{
 nav .links a:not(:last-child){
   margin-right:25px;
 }
+nav .links a{
+  position: relative;
+}
+nav .links a:hover{
+  border-bottom: 2px solid rgba(0,0,0,0.4);
+}
 
 nav .sign button{
   padding: 6px 12px;
@@ -46,6 +70,10 @@ nav .sign button{
   background-color: transparent;
 }
 
+nav .sign .login{
+  display:none;
+}
+
 nav .sign button.signup{
   background-color: #000;
   color:#fff;
@@ -53,18 +81,26 @@ nav .sign button.signup{
 }
 
 nav .signed{
-  font-size: 1.25rem;
+  display:flex;
+  gap: 15px;
+  font-size: 1.1rem;
   font-weight: 500;
   color:#0f2182;
 }
-
 nav .signed button{
-  display:none;
+  padding: 6px 12px;
+  border:none;
+  margin-right:14px;
+  cursor: pointer;
+  background-color: #000;
+  color:#fff;
+  border-radius: 5px;
+  margin-top:-3px;
 }
 
 header{
   padding: 0 80px;
-  height: calc(100vh - 80px);
+  height: 100vh;
   display:flex;
   align-items: center;
   justify-content: space-between;
@@ -109,7 +145,7 @@ header .left a span{
 }
 
 header img{
-  width:600px;
+  width:650px;
 }
 
 h2.seperator{

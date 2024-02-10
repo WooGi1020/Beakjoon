@@ -121,7 +121,7 @@ body{
 }
 
 .fail{
-  border: solid 2px red;
+  border: solid 2px rgb(252, 40, 40);
   border-radius:8px;
 }
 
