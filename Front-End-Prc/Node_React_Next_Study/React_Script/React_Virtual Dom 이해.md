@@ -1,3 +1,12 @@
+---
+tistoryBlogName: coding-woogi
+tistoryTitle: React_Virtual Dom 이해
+tistoryVisibility: "3"
+tistoryCategory: "1413475"
+tistorySkipModal: true
+tistoryPostId: "46"
+tistoryPostUrl: https://coding-woogi.tistory.com/46
+---
 ### 브라우저의 렌더링 과정
 
 주요 렌더링 경로(critical Rendering Path)를 통해 브라우저가 코드를 알아보기 쉽게 해석

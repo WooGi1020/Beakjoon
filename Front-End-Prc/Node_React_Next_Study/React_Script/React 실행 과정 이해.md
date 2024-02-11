@@ -1,3 +1,12 @@
+---
+tistoryBlogName: coding-woogi
+tistoryTitle: React 실행 과정 이해
+tistoryVisibility: "3"
+tistoryCategory: "1413475"
+tistorySkipModal: true
+tistoryPostId: "47"
+tistoryPostUrl: https://coding-woogi.tistory.com/47
+---
 ### Module을 통한 요소 생성
 
 - npm
