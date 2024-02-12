@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height:100vh;
+  width:100vw;
+  position: relative;
+  cursor: none;
+  background: url(./asset/map.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.snichi{
+  transition: left 0.5 ease;
+  transition: top 0.5 ease;
+  width:150px;
+  position:absolute;
+  left:500px;
+  top:300px;
+}
+
+.harry{
+  width:200px;
+  position:absolute;
+}
