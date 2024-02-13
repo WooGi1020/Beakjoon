@@ -17,8 +17,8 @@ body{
 }
 .weather-container{
   position:relative;
-  width:500px;
-  height:105px;
+  width:600px;
+  height:100px;
   background: #fff;
   padding: 28px 32px;
   border-radius: 18px;
@@ -72,4 +72,127 @@ body{
   position: absolute;
   color: #073450;
   font-size:20px;
+}
+
+.error-box{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 130px;
+  display:none;
+  scale:0;
+  opacity: 0;
+}
+
+.error-box h1{
+  font-size: 8rem;
+}
+
+.error-box p{
+  font-size: 1.5rem;
+}
+
+.detail-box{
+  display:none;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top:5px;
+}
+
+.detail-box .weather-name{
+  text-transform: uppercase;
+}
+
+.detail-box img,
+.detail-box div{
+  margin-bottom: 20px;
+}
+
+.detail-box .text{
+  display:flex;
+  width: 400px;
+  position: relative;
+  justify-content: space-between;
+  margin-top: 30px;
+  flex-direction: row;
+  font-size: 1.5rem;
+}
+
+.detail-box .text p:first-child{
+  color:#9d2d2d;
+}
+
+.detail-box .text p:nth-child(2){
+  color:#188a2d;
+}
+.detail-box .text p:last-child{
+  color:#1d75ab;
+}
+.detail-box img{
+  width: 40%;
+}
+
+.detail-box .weather-name{
+  font-weight: 500;
+  color:#4a4a4a;
+  font-size: 2.75rem;
+  margin-top: 15px;
+}
+
+.detail-other{
+  display:none;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: -10px;
+}
+.detail-other i{
+  font-size: 1.5rem;
+}
+
+.detail-other .humidity i{
+  color:#3596ff;
+}
+
+.detail-other .wind i{
+  color:#3eb060;
+}
+
+.detail-other .sunrise i{
+  color: #ff5151;
+}
+
+.detail-other .sunset i{
+  color: #74347f;
+}
+
+.detail-other div{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.detail-other div span{
+  font-size: 1.25rem;
+}
+
+.detail-box, .detail-other{
+  scale:0;
+  opacity: 0;
+}
+
+.fade-in{
+  animation: 0.5s fadein forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadein{
+  to{
+    opacity: 1;
+    scale: 1;
+  }
 }
