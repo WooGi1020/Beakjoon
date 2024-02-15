@@ -1,3 +1,12 @@
+---
+tistoryBlogName: coding-woogi
+tistoryTitle: Props
+tistoryVisibility: "3"
+tistoryCategory: "1413475"
+tistorySkipModal: true
+tistoryPostId: "50"
+tistoryPostUrl: https://coding-woogi.tistory.com/50
+---
 
 - props
 React앱에서 자식 컴포넌트에게 데이터를 보내주고자 할 때 사용하는 문법

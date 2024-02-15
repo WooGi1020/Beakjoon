@@ -14,9 +14,14 @@ const signArr = []
 const SIGN_KEY = 'sign';
 
 function signInfo() {
-  inputs.forEach((item) => {
-    signArr.push(item.value);
-  })
+  // inputs.forEach((item) => {
+  //   signArr.push(item.value);
+  // })
+  const signArr = {
+    id:`${inputs[0].value}`,
+    pw:`${inputs[1].value}`,
+    nickname:`${inputs[4].value}`
+  }
   localStorage.setItem(SIGN_KEY, JSON.stringify(signArr));
 }
 

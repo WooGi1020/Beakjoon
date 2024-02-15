@@ -6,7 +6,7 @@ document.body.addEventListener('mousemove', function(e) {
 const snichi = document.querySelector('.snichi');
 
 function handleSnichi() {
-  const randomLeft = Math.floor(Math.random() * 1200);
+  const randomLeft = Math.floor(Math.random() * 1300);
   const randomTop = Math.floor(Math.random() * 600);
 
   snichi.style.left = randomLeft + 'px';

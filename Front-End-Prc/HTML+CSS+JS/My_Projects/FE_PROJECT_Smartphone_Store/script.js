@@ -8,7 +8,7 @@ const arr = JSON.parse(localStorage.getItem(SIGN_KEY));
 if(arr){
   signContainer.classList.remove('sign');
   signContainer.classList.add('signed');
-  signContainer.innerHTML = `<p>${arr[4]}님, 환영합니다!</p>`;
+  signContainer.innerHTML = `<p>${arr.nickname}님, 환영합니다!</p>`;
   const logout = document.createElement('button');
   logout.classList.add('logout');
   logout.textContent = `로그아웃`;

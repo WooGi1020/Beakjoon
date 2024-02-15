@@ -11,8 +11,8 @@ function isValidInfo() {
   try{
     const arr = localStorage.getItem(SIGN_KEY);
     const userInfo = JSON.parse(arr);
-    const isValidId = userInfo[0];
-    const isValidPw = userInfo[1];
+    const isValidId = userInfo.id;
+    const isValidPw = userInfo.pw;
     let isValid = false;
 
     if(idContainer.value == isValidId && pwContainer .value== isValidPw){

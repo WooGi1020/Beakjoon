@@ -2,11 +2,17 @@ import './Button.css'
 
 export default function Button({color, text, children}) {
 
+  const onClick = (e) => {
+    console.log(e.pageX);
+  }
+
   return(
-    <button className="Button" style={{
+    <button className="Button" 
+    onClick={onClick}
+    style={{
       backgroundColor: color
     }}>
-      {children}
+      {text}
     </button>
   )
 }

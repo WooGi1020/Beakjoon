@@ -33,7 +33,6 @@ nav{
 
 nav.active{
   background-color:#f1f1f1;
-  z-index: 1;
   animation:fadeIn 0.5s ease-in-out;
   width:100%;
 }
@@ -68,10 +67,6 @@ nav .sign button{
   margin-right:14px;
   cursor: pointer;
   background-color: transparent;
-}
-
-nav .sign .login{
-  display:none;
 }
 
 nav .sign button.signup{
