@@ -1,0 +1,30 @@
+.Btn{
+  display:flex;
+  justify-content: space-between;
+}
+
+.Btn Button{
+  padding: 5px 10px;
+  border-radius: 10px;
+  border:none;
+  background-color: #9987ff;
+  cursor: pointer;
+  color:#fff;
+}
+
+.Btn Button:hover{
+  background-color: rgb(170, 68, 181);
+  animation: bounce 0.5s ease;
+}
+
+@keyframes bounce{
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-5px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}

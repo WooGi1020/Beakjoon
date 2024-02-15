@@ -1,0 +1,15 @@
+.Viewer{
+  text-align: center;
+}
+
+.Viewer div{
+  font-size: 1.25rem;
+}
+
+.Viewer h1{
+  font-size: 2rem;
+}
+
+.Viewer .count{
+  margin-top: 20px;
+}
