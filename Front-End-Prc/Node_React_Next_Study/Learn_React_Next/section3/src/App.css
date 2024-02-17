@@ -17,6 +17,17 @@ body{
   width: 400px;
 }
 
+.APP:first-child{
+  text-align: center;
+}
+
+.APP:first-child input{
+  text-align: center;
+  padding:5px;
+  border:solid 1px rgba(0,0,0,0.2);
+  outline:none;
+  border-radius: 10px;
+}
 
 .APP > section{
   background-color: #f1f1f1;
