@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  border:solid 3px black;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img{
+  width: 200px;
+  height:200px;
+}
+
+header h1{
+  font-size: 3rem;
+  padding: 20px 0;
+  border-bottom: solid 3px rgba(0,0,0,0.3);
+  margin-bottom: 30px;
+}
+
+header h1 span{
+  color: #89b1e8;
+}
+
+.search-container{
+  justify-content: space-around;
+  display: flex;
+  width: 680px;
+  flex: 1;
+}
+
+.search-container select{
+  width: 80%;
+  text-align: center;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 34px;
+  outline: none;
+}
+
+.search-container button{
+  width: 10%;
+  border: solid 1px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  background-color: #89b1e8;
+  color:#fff;
+  cursor: pointer;
+}
+
+.search-container button:hover{
+  background-color: #6986af;
+}
