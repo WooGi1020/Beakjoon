@@ -12,6 +12,7 @@
 
 .TodoItem .content{
   flex: 1;
+  text
 }
 
 .TodoItem .date{
@@ -30,4 +31,8 @@
 
 .TodoItem button:hover{
   background-color: rgb(224, 224, 224);
+}
+
+.checked{
+  text-decoration: line-through;
 }

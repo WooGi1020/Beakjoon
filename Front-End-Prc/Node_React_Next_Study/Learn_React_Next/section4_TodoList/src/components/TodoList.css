@@ -8,7 +8,7 @@
   padding: 10px 0;
   outline: none;
   transition: border 0.3s ease;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .TodoList input:focus{

@@ -1,6 +1,7 @@
 import './Header.css';
+import { memo } from 'react';
 
-export default function Header(){
+function Header(){
 
   return <div className="Header">
     <h1>
@@ -8,3 +9,5 @@ export default function Header(){
     </h1>
   </div>
 }
+
+export default memo(Header);
