@@ -6,22 +6,30 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
 .container{
   display: flex;
-  border:solid 3px black;
+  margin: 0 auto;
+  min-width: 850px;
   height: 100vh;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 
 img{
-  width: 200px;
-  height:200px;
+  width: 150px;
+  height:150px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header h1{
   font-size: 3rem;
+  margin: 0 auto;
   padding: 20px 0;
   border-bottom: solid 3px rgba(0,0,0,0.3);
   margin-bottom: 30px;
@@ -35,21 +43,26 @@ header h1 span{
   justify-content: space-around;
   display: flex;
   width: 680px;
-  flex: 1;
+  margin-left: 80px;
 }
 
 .search-container select{
-  width: 80%;
+  width: 85%;
   text-align: center;
   height: 30px;
   border-radius: 5px;
   margin-right: 34px;
+  cursor: pointer;
   outline: none;
+}
+
+.search-container select:focus{
+  border:solid 2px #89b1e8;
 }
 
 .search-container button{
   width: 10%;
-  border: solid 1px rgba(0,0,0,0.2);
+  border: none;
   border-radius: 5px;
   background-color: #89b1e8;
   color:#fff;
@@ -57,5 +70,44 @@ header h1 span{
 }
 
 .search-container button:hover{
+  background-color: #6986af;
+}
+
+.news-viewer{
+  width:850px;
+  margin-top: 30px;
+}
+
+.news-viewer .card:first-child{
+  border-top: solid 3px rgb(220,220,220);
+}
+
+.news-viewer .card{
+  display: flex;
+  border-bottom: solid 3px rgb(220,220,220);
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.news-viewer .card .news-article{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 550px;
+}
+
+.news-viewer .card button{
+  width: 80px;
+  background-color: #89b1e8;
+  color: #fff;
+  border:none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.news-viewer .card button:hover{
   background-color: #6986af;
 }
