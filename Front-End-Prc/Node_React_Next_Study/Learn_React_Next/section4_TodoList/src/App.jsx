@@ -1,8 +1,9 @@
-import { useReducer, useRef, useCallback } from 'react'
+import { useReducer, useRef, useCallback, useMemo } from 'react'
 import './App.css'
 import Header from './components/Header'
 import TodoEditor from './components/TodoEditor'
 import TodoList from './components/TodoList'
+import { TodoStateContext, TodoDispatchContext } from './TodoContext'
 
 function Reduser(state, action) {
   switch(action.type){
@@ -46,11 +47,24 @@ function App() {
     })
   }, []);
 
+  const memoizedDispatches = useMemo(() => {
+    return {
+      onCreate,
+      onUpdate,
+      onDelete
+    }
+  }, [])
+
   return (
     <div className="App">
       <Header></Header>
-      <TodoEditor onCreate = {onCreate}></TodoEditor>
-      <TodoList todos={todos} onUpdate={onUpdate} onDelete={onDelete}></TodoList>
+      <TodoStateContext.Provider value = {todos}>
+        <TodoDispatchContext.Provider
+        value = {memoizedDispatches}>
+          <TodoEditor />
+          <TodoList />
+        </TodoDispatchContext.Provider>
+      </TodoStateContext.Provider>
     </div>
   )
 }
