@@ -22,7 +22,10 @@ function handleSearch() {
         cardDiv.classList.add('card');
 
         const img = document.createElement('img');
-        img.src = arr.urlToImage != null ? arr.urlToImage : 'https://w7.pngwing.com/pngs/980/697/png-transparent-empty-set-null-set-computer-icons-mathematics-mathematics-triangle-symbol-subset.png';
+        img.onerror = () => {
+          img.src = 'https://graphicriver.img.customer.envatousercontent.com/files/413754196/590.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=7e250cafe9c20103fdbc966d1bf9de0a';
+        } 
+        img.src = arr.urlToImage != null ? arr.urlToImage : 'https://graphicriver.img.customer.envatousercontent.com/files/413754196/590.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=7e250cafe9c20103fdbc966d1bf9de0a';
 
         const newsArticle = document.createElement('div');
         newsArticle.classList.add('news-article');
@@ -53,6 +56,7 @@ function handleSearch() {
     }
   })
 }
+
 
 
 searchBtn.addEventListener('click', handleSearch);
