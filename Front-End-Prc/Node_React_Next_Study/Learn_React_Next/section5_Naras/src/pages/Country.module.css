@@ -1,0 +1,49 @@
+.container{
+  display:flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.header{
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(230,230,230);
+}
+
+.header .commonName{
+  font-size: 30px;
+  font-weight: 700;
+}
+.commonName img{
+  width: 38px;
+}
+
+.body{
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.fa{
+  min-height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  position: relative;
+  bottom: 100px;
+  animation: binggle 10s infinite
+}
+
+@keyframes binggle{
+  to{
+    transform: rotate(3600deg);
+  }
+}
+
+.a{
+  text-decoration: none;  
+}
