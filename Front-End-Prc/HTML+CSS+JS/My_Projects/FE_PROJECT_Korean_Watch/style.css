@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: "Noto Serif KR", serif;
+  font-size: 37px;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.korean-watch{
+  display:felx;
+  flex-direction: column;
+	background-color:#000;
+	width:410px;
+	height:370px;
+	padding:15px;
+	color:#ffffff;
+	text-align:center;
+	font-size:25px;
+	letter-spacing:8px;
+	opacity:0.8;
+}
+
+span{
+  color:rgb(251, 255, 0);
+	opacity:1;
+}
