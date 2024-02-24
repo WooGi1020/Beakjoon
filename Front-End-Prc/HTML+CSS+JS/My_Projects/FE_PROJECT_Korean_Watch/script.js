@@ -121,24 +121,22 @@ let time = () => {
   
   let watch = document.querySelector(".korean-watch");
 	let k = 0;
-	let kor = "";
+  let kor = "";
 
-	for(let i = 0; i < 6; i++){
-		for(let j = 0; j < 8; j++){
-			if(time[k] == timeKor[(i*8)+j]){
-				kor = kor + "<span>" + timeKor[(i*8)+j] + "</span>";
-				k++;
-			} else {
-				kor = kor + timeKor[(i*8)+j];
-			}
-		}
-		if(i != 6){
-			kor = kor + "<br>";
-		}
-	}
-	watch.innerHTML = kor;
+  timeKor.forEach((element, index) => {
+    if (index % 8 === 0 && index !== 0) {
+      kor += "<br>";
+    }
 
-  kor='';
+    if (time[k] === element) {
+      kor += "<span>" + element + "</span>";
+      k++;
+    } else {
+      kor += element;
+    }
+  });
+    watch.innerHTML = kor;
+    kor='';
 }
 
 window.onload = () => {
