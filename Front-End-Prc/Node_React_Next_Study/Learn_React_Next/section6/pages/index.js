@@ -1,28 +1,20 @@
-import Link from "next/link"; // CSR
-import { useRouter } from "next/router";
+import { fetchCountries } from "@/api";
 
-export default function Home() {
-  const code = "ITA";
-  const router = useRouter();
-
-  const onClickBtn =() => {
-    router.push('/search'); // 현재 페이지의 경로 변경
-  }
-
+export default function Home({countries}) {
   return (
-    <div>Home Page
-      <div>
-        <button onClick={onClickBtn}>Search 페이지로 이동!</button>
-      </div>
-      <div>
-        <Link href={"/search"}>Search 페이지로 이동</Link>
-      </div>
-      <div>
-        <Link href={{
-          pathname:"/country/[code]",
-          query:{code : code},
-        }}>{code} 페이지로 이동</Link>
-      </div>
+    <div>
+      {countries.map((country) => <div key={country.code}>{country.commonName}</div>)}
     </div>
   );
+}
+
+export const getServerSideProps = async()=>{
+    // SSR을 위해 서버측에서 컴포넌트에게 전달할 데이터 전달 함수 (page역할)
+
+  const countries = await fetchCountries();
+  return {
+    props:{
+      countries,
+    },
+  }
 }

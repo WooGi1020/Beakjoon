@@ -1,5 +1,8 @@
-export default function SubLayout(children) {
+import style from './SubLayout.module.css'
+
+export default function SubLayout({children}) {
   return <div className="SubLayout">
-    {children}
+    <div>{children}</div>
+    <footer className={style.footer}>@COGI</footer>
   </div>
 }
