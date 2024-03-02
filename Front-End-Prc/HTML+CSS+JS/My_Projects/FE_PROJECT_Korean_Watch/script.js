@@ -14,10 +14,13 @@ const ojeonhoo = (h) => {
 const hourKor = (h) => {
   let korean = '';
   
-  if(h.ten != 0){
+  if(h.ten != 0 || h.ten == -2){
     korean += '열'
   }
   switch(h.one){
+    case -2:
+      korean += '두';
+      break;
     case 1:
       korean += '한';
       break;
