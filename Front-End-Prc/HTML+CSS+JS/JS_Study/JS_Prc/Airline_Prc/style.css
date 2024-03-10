@@ -70,7 +70,7 @@ section .reserve-ticket{
 }
 
 .big-line{
-  width: 640px;
+  width: 100%;
   border-bottom: dashed 1px #b6bfd3;
   margin-bottom: 24px;
 }
