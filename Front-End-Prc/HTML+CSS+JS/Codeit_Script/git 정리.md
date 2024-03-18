@@ -63,4 +63,69 @@ git의 파일은 크게 ==Untracked==와 ==Tracked==의 상태를 보유
 - git clone 파일주소 : github의 프로젝트를 내 컴퓨터로 복제 및 전송
 ```
 
+### 커밋 다루기
+---
+🔖커밋이 다루는 기본 정보 : ==커밋 사용자 아이디==,==커밋 날짜 및 시간==,==커밋 메세지==
+```markdown
+❗커밋 메세지 작성 시 가이드라인
+1. 커밋 메세지의 제목과 설명 사이 한줄 비워두기(head와 body의 구분)
+2. 커밋 메세지 제목 뒤에 온점(.) 붙히기 금지
+3. 커밋 메세지 제목의 첫번째 글자는 대문자로 작성
+4. 커밋 메세지의 제목은 명령조로 작성
+5. 커밋의 상세 내용
+	왜 커밋하였는가, 어떤 문제가 있었는가, 적용한 해결책이 어떤 효과를 내는가
+6. 최대한 친절하게 작성
+```
+```markdown
+❗커밋할때 알아야할 가이드라인
+1. 하나의 커밋에는 하나의 수정사항(issue)만 남기기
+2. 현재 디렉토리의 상태가 내부 전체 코드 실행 시 에러가 발생하지 않는 경우에 남기기
+```
 
+### 긴 커맨드에 alias 설정
+---
+🔖git의 다양한 커맨드는 짧기도 하지만 길이가 긴 커맨드도 존재.
+❗aliasing을 이용해 이러한 긴 커맨드에 별명을 지정하고 활용 가능
+```markdown
+ex)
+git log --pretty=oneline
+-> aliasing..
+git config alias.history 'log --pretty=oneline'
+```
+
+### 커밋 다루기 심화
+```markdown
+- git log : 커밋 히스토리 출력
+- git log --pretty=online : 히스토리를 예쁘게 한줄로 정렬하여 출력
+- git show 'commit id' : 특정 커밋의 변경사항 확인
+- git commit --amend : 최신 커밋 수정 및 새 커밋으로 변환
+- git config alias.name 'option' : 길이가 긴 커맨드의 별명 설정 및 사용
+- git diff 'commit1' 'commit2' : 커밋1, 2간의 차이 비교
+- git reset 'option' 'commit' : 옵션에 따라 커밋 취소의 세분화가 가능
+- git tag : 특정 커밋의 태그 붙히기기
+```
+
+### 브랜치 정리
+```markdown
+- git branch 브랜치 : 새로운 브랜치를 생성
+- git checkout -b 브랜치 : 새 브랜치를 생성 후, 그 브랜치로 이동
+- git branch -d 브랜치 : 브랜치를 제거
+- git merge 특정_브랜치 : 현재 위치한 브랜치에 특정 브랜치를 머지
+- git merge --abort : 머지 중에 conflict 발생 시, 취소 후 이전 상태로 회
+```
+
+### 협업을 위한 git 커맨드
+```markdown
+- git fetch : git pull과 다르게 리모트 레포지토리의 내용을 데이터상으로 가져오기만 함
+- git blame : 특정 파일의 커밋이 언제 어떻게 생긴건지 확인
+- git revert : 특정 커밋에서 이루어진 작업을 되돌리는 커밋을 새로 생성
+
+- git reflog : HEAD가 가리켜온 모든 커밋을 출력
+- git log --all --graph : 모든 브랜치의 커밋 히스토리를 그래프 형식으로 출력
+- git rebase 브랜치 : merge와 동일한 효과이나 좀더 히스토리가 깔끔해짐
+- git stash : 현재 작업 내용을 임시 스택 영역에 저장
+- git stash apply : 스택에 저장된 작업 내용을 불러옴(커밋 아이디 미작성 시 가장 최근 작업)
+- git stash drop : 스택에 저장된 작업 내용을 삭제(커밋 아이디 미작성 시 가장 최근 작업)
+- git stash pop : 스택에 저장된 작업 내용을 working dir에 적용하고 삭제
+- git cherry-pick : 특정 커밋의 내용을 현재 커밋에 반영
+```
