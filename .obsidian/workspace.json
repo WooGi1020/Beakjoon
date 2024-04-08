@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f9801c3bf7fdc106",
+        "id": "6938b00c236f3c13",
         "type": "tabs",
         "children": [
           {
-            "id": "a81cb9e5017eab3d",
+            "id": "797cafa8da85857c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Front-End-Prc/Node_React_Next_Study/React_Script/React 실행 과정 이해.md",
+                "file": "Front-End-Prc/Codeit_Script/자바스크립트 웹 개발 기본.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "21281c7113b302bb",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front-End-Prc/Node_React_Next_Study/React_Script/React 실행 과정 이해.md",
+                "file": "Front-End-Prc/Codeit_Script/자바스크립트 웹 개발 기본.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Front-End-Prc/Node_React_Next_Study/React_Script/React 실행 과정 이해.md",
+                "file": "Front-End-Prc/Codeit_Script/자바스크립트 웹 개발 기본.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Front-End-Prc/Node_React_Next_Study/React_Script/React 실행 과정 이해.md"
+                "file": "Front-End-Prc/Codeit_Script/자바스크립트 웹 개발 기본.md"
               }
             }
           }
@@ -147,54 +146,55 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a81cb9e5017eab3d",
+  "active": "797cafa8da85857c",
   "lastOpenFiles": [
-    "Front-End-Prc/Node_React_Next_Study/Learn_React_Next/section2/src/components/Footer.jsx",
-    "Front-End-Prc/Node_React_Next_Study/Learn_React_Next/section2/src/components/Body.jsx",
-    "Front-End-Prc/Node_React_Next_Study/Learn_React_Next/section2/src/components/Header.jsx",
-    "Front-End-Prc/Node_React_Next_Study/Learn_React_Next/section2/src/components",
-    "Front-End-Prc/Node_React_Next_Study/Learn_React_Next/section2/src/assets/react.svg",
-    "Front-End-Prc/Node_React_Next_Study/React_Script/React 실행 과정 이해.md",
-    "Front-End-Prc/HTML+CSS+JS/Node&FW_Study/React_Script",
-    "Front-End-Prc/HTML+CSS+JS/Node&FW_Study/무제 파일.md",
-    "Front-End-Prc/HTML+CSS+JS/Node&FW_Study/React_Script/React_Virtual Dom 이해.md",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_23. 실행 컨텍스트.md",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_22. this.md",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/script.js",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_17.  생성자 함수에 의한 객체 생성.md",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_18. 함수와 일급 객체.md",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_19. 프로토타입.md",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/모던 자바스크립트_DeepDive/CH_20. strict mode.md",
-    "README.md",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/JS_Study_Google/전체샷.png",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/JS_Study_Google/비교샷.png",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/JS_Study_Google/내 구글.png",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/JS_Study_Google/검색.png",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/JS_Study_Google/검색 결과.png",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/검색.png",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/검색 결과.png",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/전체샷.png",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/비교샷.png",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/JS_Study_Google/Google 시작 홈페이지 만들어보기.md",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/JS_Study_MapleLogin/메이플스토리 홈페이지 로그인 화면 만들어보기.md",
-    "Front-End-Prc/HTML+CSS+JS/JS_Study/JS_Prc/JS_Study_Google/Google 홈페이지 만들어보기.md",
-    "컴구운체/_운영체제_/_운영체제_ 13. 교착 상태.md",
-    "컴구운체/_운영체제_/_운영체제_ 12. 프로세스 동기화.md",
-    "JavaScript/My_Projects/JAVA_PROJECT_MyOwnSpace/Chrome Web Making Prc Personal Script.md",
-    "JavaScript/My_Projects/JAVA_PROJECT_MyOwnSpace/나만의 페이지 만들기.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/CSS/6장_CSS 필수 속성 다루기_2.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/CSS/6장_CSS 필수 속성 다루기_3.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/CSS/6장_CSS 필수 속성 다루기_1.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/CSS/5장_CSS 선택자 다루기.md",
-    "JavaScript/[코딩 자율학습] Html+Css+JavaScript/CSS/4장_웹 스타일링을 위한 CSS 기초 배우기.md",
-    "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/img",
-    "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/새 폴더",
-    "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/JS/background.js",
-    "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/JS/quote.js",
-    "JavaScript/My_Projects/JAVA_PROJECT_MyChromeWeb/JS/clock.js",
-    "컴구운체/_운영체제_/_운영체제_ 10. 프로세스와 스레드.md",
-    "컴구운체/_운영체제_/_운영체제_ 09. 운영체제 시작하기.md",
-    "컴구운체/_운영체제_/_운영체제_ 11. CPU 스케줄링.md",
+    "Front-End-Prc/Codeit_Script/자바스크립트 정리.md",
+    "Front-End-Prc/Codeit_Script/자바스크립트 웹 개발 기본.md",
+    "Front-End-Prc/React_Study/section04/node_modules/prop-types/lib/ReactPropTypesSecret.js",
+    "Front-End-Prc/React_Study/section04/node_modules/prop-types/lib/has.js",
+    "Front-End-Prc/React_Study/section04/node_modules/prop-types/prop-types.js",
+    "Front-End-Prc/React_Study/section04/node_modules/prop-types/README.md",
+    "Front-End-Prc/React_Study/section04/node_modules/prop-types/prop-types.min.js",
+    "Front-End-Prc/React_Study/section04/node_modules/prop-types/LICENSE",
+    "Front-End-Prc/React_Study/section04/node_modules/prop-types/package.json",
+    "Front-End-Prc/React_Study/section04/node_modules/prop-types/lib",
+    "Front-End-Prc/React_Study/section04/node_modules/prop-types/index.js",
+    "Front-End-Prc/React_Study/section04/node_modules/prop-types/factoryWithTypeCheckers.js",
+    "Front-End-Prc/React_Study/section04/node_modules/prop-types/factoryWithThrowingShims.js",
+    "Front-End-Prc/React_Study/section04/node_modules/react-is/README.md",
+    "Front-End-Prc/React_Study/section04/node_modules/array.prototype.findlast/README.md",
+    "Front-End-Prc/React_Study/section04/node_modules/array.prototype.findlast/CHANGELOG.md",
+    "Front-End-Prc/React_Study/section04/node_modules/array.prototype.tosorted/README.md",
+    "Front-End-Prc/React_Study/section04/node_modules/array.prototype.tosorted/CHANGELOG.md",
+    "Front-End-Prc/React_Study/section04/node_modules/esutils/README.md",
+    "Front-End-Prc/React_Study/section04/node_modules/array.prototype.toreversed/README.md",
+    "Front-End-Prc/React_Study/section04/node_modules/array.prototype.toreversed/CHANGELOG.md",
+    "Front-End-Prc/React_Study/section04/node_modules/es-set-tostringtag/README.md",
+    "Front-End-Prc/React_Study/section04/node_modules/es-set-tostringtag/CHANGELOG.md",
+    "Front-End-Prc/React_Study/section04/node_modules/is-generator-function/README.md",
+    "Front-End-Prc/React_Study/section04/node_modules/is-generator-function/CHANGELOG.md",
+    "Front-End-Prc/React_Study/section04/node_modules/available-typed-arrays/README.md",
+    "Front-End-Prc/React_Study/section04/node_modules/available-typed-arrays/CHANGELOG.md",
+    "Front-End-Prc/React_Study/section04/node_modules/globalthis/README.md",
+    "Front-End-Prc/React_Study/section04/node_modules/globalthis/CHANGELOG.md",
+    "Front-End-Prc/React_Study/section04/node_modules/array-includes/README.md",
+    "Front-End-Prc/React_Study/section04/node_modules/array-includes/CHANGELOG.md",
+    "Front-End-Prc/React_Study/section04/node_modules/es-shim-unscopables/README.md",
+    "Front-End-Prc/React_Study/section04/node_modules/es-shim-unscopables/CHANGELOG.md",
+    "Front-End-Prc/React_Study/section04/node_modules/es-to-primitive/README.md",
+    "Front-End-Prc/React_Study/section04/node_modules/es-to-primitive/CHANGELOG.md",
+    "Front-End-Prc/React_Study/section04/node_modules/es-object-atoms/README.md",
+    "Front-End-Prc/React_Study/section04/src/assets/react.svg",
+    "Front-End-Prc/React_Study/section04/public/vite.svg",
+    "Pasted image 20240328123218.png",
+    "Front-End-Prc/6-Sprint-Mission/assets/og-image.png",
+    "Front-End-Prc/6-Sprint-Mission/signup/assets/show-pw.png",
+    "Front-End-Prc/6-Sprint-Mission/login/assets/show-pw.png",
+    "Front-End-Prc/6-Sprint-Mission/login/assets/google-logo.png",
+    "Front-End-Prc/6-Sprint-Mission/login/assets/logo.png",
+    "Front-End-Prc/6-Sprint-Mission/login/assets/kakao-logo.png",
+    "Front-End-Prc/6-Sprint-Mission/assets/short_logo.png",
+    "무제 파일.canvas",
     "컴구운체/무제 파일.canvas"
   ]
 }

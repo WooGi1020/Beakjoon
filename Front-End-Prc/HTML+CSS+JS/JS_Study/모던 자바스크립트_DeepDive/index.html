@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
-<body>
-  
-  <script src="./study.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <p>클로저 예시</p>
+      <button>click!</button>
+      <p class="count">0</p>
+    </div>
+    <script>
+      const p = document.querySelector(".count");
+      const btn = document.querySelector("button");
+
+      const counter = (function () {
+        let countValue = 0;
+
+        return function () {
+          return countValue++;
+        };
+      })();
+
+      btn.onclick = () => {
+        p.textContent = counter();
+      };
+    </script>
+  </body>
 </html>
