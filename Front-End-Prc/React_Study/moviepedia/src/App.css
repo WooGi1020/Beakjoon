@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  scroll-behavior: smooth;
+  width: 200px;
+  border: solid 1px black;
+  overflow: scroll;
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.dataCon {
+  margin-right: 50px;
+}

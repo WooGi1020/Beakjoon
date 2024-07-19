@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Front-End-Prc/Codeit_Script/자바스크립트 웹 개발 기본.md",
+                "file": "Front-End-Prc/HTML+CSS+JS/CSS 라이브러리/SCSS 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "21281c7113b302bb",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Front-End-Prc/Codeit_Script/자바스크립트 웹 개발 기본.md",
+                "file": "Front-End-Prc/HTML+CSS+JS/CSS 라이브러리/SCSS 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Front-End-Prc/Codeit_Script/자바스크립트 웹 개발 기본.md",
+                "file": "Front-End-Prc/HTML+CSS+JS/CSS 라이브러리/SCSS 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Front-End-Prc/Codeit_Script/자바스크립트 웹 개발 기본.md"
+                "file": "Front-End-Prc/HTML+CSS+JS/CSS 라이브러리/SCSS 정리.md"
               }
             }
           }
@@ -148,8 +149,9 @@
   },
   "active": "797cafa8da85857c",
   "lastOpenFiles": [
-    "Front-End-Prc/Codeit_Script/자바스크립트 정리.md",
     "Front-End-Prc/Codeit_Script/자바스크립트 웹 개발 기본.md",
+    "Front-End-Prc/HTML+CSS+JS/CSS 라이브러리/SCSS 정리.md",
+    "Front-End-Prc/Codeit_Script/자바스크립트 정리.md",
     "Front-End-Prc/React_Study/section04/node_modules/prop-types/lib/ReactPropTypesSecret.js",
     "Front-End-Prc/React_Study/section04/node_modules/prop-types/lib/has.js",
     "Front-End-Prc/React_Study/section04/node_modules/prop-types/prop-types.js",
@@ -183,7 +185,6 @@
     "Front-End-Prc/React_Study/section04/node_modules/es-shim-unscopables/CHANGELOG.md",
     "Front-End-Prc/React_Study/section04/node_modules/es-to-primitive/README.md",
     "Front-End-Prc/React_Study/section04/node_modules/es-to-primitive/CHANGELOG.md",
-    "Front-End-Prc/React_Study/section04/node_modules/es-object-atoms/README.md",
     "Front-End-Prc/React_Study/section04/src/assets/react.svg",
     "Front-End-Prc/React_Study/section04/public/vite.svg",
     "Pasted image 20240328123218.png",

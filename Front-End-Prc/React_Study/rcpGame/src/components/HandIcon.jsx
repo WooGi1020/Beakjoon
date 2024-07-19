@@ -8,10 +8,10 @@ const rcpArr = {
   paper,
 };
 
-function HandIcon({ value = "rock" }) {
+function HandIcon({ value = "rock", className }) {
   return (
     <>
-      <img src={rcpArr[value]} alt={value} />
+      <img className="className" src={rcpArr[value]} alt={value} />
     </>
   );
 }

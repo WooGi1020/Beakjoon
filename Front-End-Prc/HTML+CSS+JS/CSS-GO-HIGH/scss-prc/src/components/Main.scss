@@ -1,0 +1,26 @@
+.main {
+  $b: bold;
+  $f-small: 16px;
+  $f-medium: 24px;
+  $f-large: 32px;
+  cursor: pointer;
+  .p {
+    font: {
+      weight: bold;
+      size: $f-large;
+      family: sans-serif;
+    }
+  }
+  &:hover {
+    animation: binggule 1s infinite;
+  }
+}
+
+@keyframes binggule {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

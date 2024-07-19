@@ -1,27 +1,14 @@
 import React from "react";
 import HandIcon from "./HandIcon";
 import backgroundImg from "../assets/purple.svg";
+import "./HandleButton.css";
 
-const style = {
-  width: "166px",
-  height: "166px",
-  border: "none",
-  outLine: "none",
-  textAlign: "center",
-  cursor: "pointer",
-  backgroundColor: "transparent",
-  backgroundImage: `url('${backgroundImg}')`,
-  backgroundRepeat: "no-repeat",
-  backgroundPosition: "center",
-  backgroundSize: "contain",
-};
-
-function HandButton({ value, onClick }) {
+function HandButton({ value, onClick, className }) {
   const handleClick = () => onClick(value);
   return (
     <div>
-      <button style={style} onClick={handleClick}>
-        <HandIcon value={value} />
+      <button className="HandButton" onClick={handleClick}>
+        <HandIcon className="HandButton-icon" value={value} />
       </button>
     </div>
   );

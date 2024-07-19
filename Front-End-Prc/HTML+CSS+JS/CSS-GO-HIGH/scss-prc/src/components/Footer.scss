@@ -1,0 +1,22 @@
+.footer {
+  cursor: pointer;
+  .p {
+    font: {
+      weight: bold;
+      size: 32px;
+      family: sans-serif;
+    }
+  }
+  &:hover {
+    animation: binggule 1s infinite;
+  }
+}
+
+@keyframes binggule {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
